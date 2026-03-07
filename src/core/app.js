@@ -65,6 +65,7 @@ async function bootstrap() {
     geojson: projectData.geojson,
     layerConfig: projectData.layers,
     i18n,
+    projectSlug: activeProject,
     onFeatureSelected: (feature) => {
       store.setState({ selectedFeature: feature });
       events.emit("feature:selected", feature);

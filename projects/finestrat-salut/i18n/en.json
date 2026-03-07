@@ -1,0 +1,52 @@
+{
+  "branding": {
+    "title": "Finestrat Salut",
+    "subtitle": "Healthy resources map"
+  },
+  "common": {
+    "all": "All",
+    "mobile_menu": "Open panels"
+  },
+  "panel": {
+    "detail_title": "Details",
+    "detail_empty": "Select a point on the map to view details.",
+    "description": "Description",
+    "no_description": "No description",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "status": "Status",
+    "address": "Address",
+    "directions": "Get directions"
+  },
+  "layers": {
+    "title": "Layers",
+    "points": "Points",
+    "lines": "Lines",
+    "areas": "Areas"
+  },
+  "filters": {
+    "title": "Filters",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "status": "Status"
+  },
+  "status": {
+    "prevista": "Planned",
+    "en_execucio": "In progress",
+    "finalitzat": "Completed"
+  },
+  "categories": {
+    "espais_naturals": "Natural spaces, green areas and parks",
+    "equipaments_esportius_culturals": "Sports and cultural facilities",
+    "associacions_iniciatives": "Associations and local initiatives",
+    "serveis_sociosanitaris_socials": "Social and healthcare services",
+    "serveis_sociosanitaris_socials_privats": "Private social and healthcare services"
+  },
+  "subcategories": {
+    "general": "General"
+  },
+  "footer": {
+    "left": "Reusable base platform",
+    "right": "Project"
+  }
+}

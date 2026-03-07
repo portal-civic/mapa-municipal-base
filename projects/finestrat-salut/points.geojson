@@ -1,0 +1,1851 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.193684,
+          38.596417
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Puig Campana",
+        "title_es": "Puig Campana",
+        "title_en": "Puig Campana",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "mountain.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.596417,-0.193684",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1657555,
+          38.5246793
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Platja de La Cala de Finestrat",
+        "title_es": "Platja de La Cala de Finestrat",
+        "title_en": "Platja de La Cala de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "water.svg",
+        "color": "#8ed581",
+        "address": "Av. Marina Baixa, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5246793,-0.1657555",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2438487,
+          38.5634009
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Serra d’Orxeta",
+        "title_es": "Serra d’Orxeta",
+        "title_en": "Serra d’Orxeta",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "mountain.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5634009,-0.2438487",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.183208,
+          38.562976
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Sender de Serra Cortina",
+        "title_es": "Sender de Serra Cortina",
+        "title_en": "Sender de Serra Cortina",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-hiking.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.562976,-0.183208",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2293915,
+          38.5968169
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Paratge dels Castellets",
+        "title_es": "Paratge dels Castellets",
+        "title_en": "Paratge dels Castellets",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "mountain.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5968169,-0.2293915",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.208213,
+          38.578458
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Font del Molí",
+        "title_es": "Font del Molí",
+        "title_en": "Font del Molí",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "faucet-drip.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.578458,-0.208213",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210336,
+          38.567226
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Jardins de l’Ermita",
+        "title_es": "Jardins de l’Ermita",
+        "title_en": "Jardins de l’Ermita",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.567226,-0.210336",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.200046,
+          38.549605
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Zona verda del Balcó de Finestrat",
+        "title_es": "Zona verda del Balcó de Finestrat",
+        "title_en": "Zona verda del Balcó de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Av. Sevilla, 8",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.549605,-0.200046",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2105809,
+          38.5655884
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Horts ecològics (La Penya)",
+        "title_es": "Horts ecològics (La Penya)",
+        "title_en": "Horts ecològics (La Penya)",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Zona verda de 'La Penya' entre CV-761 i CV-759",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5655884,-0.2105809",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.214377,
+          38.567556
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc Alcalde Miguel Llorca",
+        "title_es": "Parc Alcalde Miguel Llorca",
+        "title_en": "Parc Alcalde Miguel Llorca",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.567556,-0.214377",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18267,
+          38.549322
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc Golf Bahía",
+        "title_es": "Parc Golf Bahía",
+        "title_en": "Parc Golf Bahía",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "c/ Isla Ibiza, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.549322,-0.18267",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1665138,
+          38.5256388
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc de l’Avinguda de la Marina Baixa",
+        "title_es": "Parc de l’Avinguda de la Marina Baixa",
+        "title_en": "Parc de l’Avinguda de la Marina Baixa",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Av. Marina Baixa, 1",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5256388,-0.1665138",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2098529,
+          38.5681263
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc de la plaça de la Unió Europea",
+        "title_es": "Parc de la plaça de la Unió Europea",
+        "title_en": "Parc de la plaça de la Unió Europea",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Pl. de la Unió Europea, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5681263,-0.2098529",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2137775,
+          38.5684574
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc Carrer Serra Cortina",
+        "title_es": "Parc Carrer Serra Cortina",
+        "title_en": "Parc Carrer Serra Cortina",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "c/ Serra Cortina, 3",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5684574,-0.2137775",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2093892,
+          38.569183
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc Avinguda Benidorm",
+        "title_es": "Parc Avinguda Benidorm",
+        "title_en": "Parc Avinguda Benidorm",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Av. Benidorm, 24",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.569183,-0.2093892",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2111024,
+          38.5685984
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc Carrer Hort",
+        "title_es": "Parc Carrer Hort",
+        "title_en": "Parc Carrer Hort",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "c/ Hort, 5",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5685984,-0.2111024",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1839125,
+          38.5400944
+        ]
+      },
+      "properties": {
+        "category": "espais_naturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Parc de Terra Marina",
+        "title_es": "Parc de Terra Marina",
+        "title_en": "Parc de Terra Marina",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "seedling.svg",
+        "color": "#8ed581",
+        "address": "Av. Costa Blanca, 71",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5400944,-0.1839125",
+        "sourceCategoryLabel": "Espais naturals, zones verdes i parcs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2134671,
+          38.5650057
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Pavelló Municipal",
+        "title_es": "Pavelló Municipal",
+        "title_en": "Pavelló Municipal",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-running.svg",
+        "color": "#f06636",
+        "address": "c/ Partida la Foia, 6",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5650057,-0.2134671",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2095597,
+          38.568423
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Piscina Municipal",
+        "title_es": "Piscina Municipal",
+        "title_en": "Piscina Municipal",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-swimming.svg",
+        "color": "#f06636",
+        "address": "Pl. de la Unió Europea, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.568423,-0.2095597",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2099558,
+          38.5684021
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Gimnàs Municipal",
+        "title_es": "Gimnàs Municipal",
+        "title_en": "Gimnàs Municipal",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "dumbbell.svg",
+        "color": "#f06636",
+        "address": "Pl. de la Unió Europea, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5684021,-0.2099558",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2130736,
+          38.5651914
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Gimnàs del Pavelló Municipal",
+        "title_es": "Gimnàs del Pavelló Municipal",
+        "title_en": "Gimnàs del Pavelló Municipal",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "dumbbell.svg",
+        "color": "#f06636",
+        "address": "c/ Partida la Foia, 6",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5651914,-0.2130736",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2124621,
+          38.56375
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Camp de Futbol",
+        "title_es": "Camp de Futbol",
+        "title_en": "Camp de Futbol",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "futbol.svg",
+        "color": "#f06636",
+        "address": "c/ Partida la Foia, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.56375,-0.2124621",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2133861,
+          38.5635011
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Pumptrack",
+        "title_es": "Pumptrack",
+        "title_en": "Pumptrack",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-biking.svg",
+        "color": "#f06636",
+        "address": "c/ Partida la Foia, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5635011,-0.2133861",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2139089,
+          38.5647509
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Trinquet",
+        "title_es": "Trinquet",
+        "title_en": "Trinquet",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "baseball.svg",
+        "color": "#f06636",
+        "address": "c/ Partida la Foia, 6",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5647509,-0.2139089",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1837726,
+          38.5402143
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Pista de futbet de Terra Marina",
+        "title_es": "Pista de futbet de Terra Marina",
+        "title_en": "Pista de futbet de Terra Marina",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "futbol.svg",
+        "color": "#f06636",
+        "address": "Av. Costa Blanca, 71",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5402143,-0.1837726",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1667644,
+          38.5249688
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Pistes de vòlei platja de La Cala de Finestrat",
+        "title_es": "Pistes de vòlei platja de La Cala de Finestrat",
+        "title_en": "Pistes de vòlei platja de La Cala de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "volleyball.svg",
+        "color": "#f06636",
+        "address": "Av. Marina Baixa, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5249688,-0.1667644",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2105414,
+          38.5683251
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Casa de Cultura",
+        "title_es": "Casa de Cultura",
+        "title_en": "Casa de Cultura",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "masks-theater.svg",
+        "color": "#f06636",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683251,-0.2105414",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2112501,
+          38.5672264
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Biblioteca Municipal",
+        "title_es": "Biblioteca Municipal",
+        "title_en": "Biblioteca Municipal",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "book-open.svg",
+        "color": "#f06636",
+        "address": "c/ Sant Josep, 13",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5672264,-0.2112501",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.214905,
+          38.567009
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Museu arqueològic i etnològic",
+        "title_es": "Museu arqueològic i etnològic",
+        "title_en": "Museu arqueològic i etnològic",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "landmark.svg",
+        "color": "#f06636",
+        "address": "c/ Font de Carré, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.567009,-0.214905",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210345,
+          38.568719
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Centre Juvenil",
+        "title_es": "Centre Juvenil",
+        "title_en": "Centre Juvenil",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "user-group.svg",
+        "color": "#f06636",
+        "address": "c/ Fonteta, 36",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.568719,-0.210345",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2111616,
+          38.5668631
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Amfiteatre del Castell",
+        "title_es": "Amfiteatre del Castell",
+        "title_en": "Amfiteatre del Castell",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "landmark-dome.svg",
+        "color": "#f06636",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5668631,-0.2111616",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1839097,
+          38.5399939
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Centre social de Terra Marina",
+        "title_es": "Centre social de Terra Marina",
+        "title_en": "Centre social de Terra Marina",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "people-group.svg",
+        "color": "#f06636",
+        "address": "Av. Costa Blanca, 71",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5399939,-0.1839097",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1652,
+          38.52437
+        ]
+      },
+      "properties": {
+        "category": "equipaments_esportius_culturals",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Plaça de l’Àmfora",
+        "title_es": "Plaça de l’Àmfora",
+        "title_en": "Plaça de l’Àmfora",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "people-group.svg",
+        "color": "#f06636",
+        "address": "",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.52437,-0.1652",
+        "sourceCategoryLabel": "Equipaments esportius i culturals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2112585,
+          38.5677513
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Associació de Dones de Finestrat",
+        "title_es": "Associació de Dones de Finestrat",
+        "title_en": "Associació de Dones de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-dress.svg",
+        "color": "#487bb6",
+        "address": "c/ Nou, 19",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5677513,-0.2112585",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2105003,
+          38.5683721
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Associació de Pensionistes i Jubilats",
+        "title_es": "Associació de Pensionistes i Jubilats",
+        "title_en": "Associació de Pensionistes i Jubilats",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-cane.svg",
+        "color": "#487bb6",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683721,-0.2105003",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2114707,
+          38.5675487
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Centre Excursionista El Portell",
+        "title_es": "Centre Excursionista El Portell",
+        "title_en": "Centre Excursionista El Portell",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-hiking.svg",
+        "color": "#487bb6",
+        "address": "c/ Nou, 5",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5675487,-0.2114707",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.173284,
+          38.538184
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Agrupament d’Scouts",
+        "title_es": "Agrupament d’Scouts",
+        "title_en": "Agrupament d’Scouts",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "campground.svg",
+        "color": "#487bb6",
+        "address": "Av. Federico García Lorca, 16",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.538184,-0.173284",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2116918,
+          38.5680359
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Escola del Sol",
+        "title_es": "Escola del Sol",
+        "title_en": "Escola del Sol",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "sun.svg",
+        "color": "#487bb6",
+        "address": "c/ Sant Vicent, 16",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5680359,-0.2116918",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1731689,
+          38.5380092
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Puig Campana Art",
+        "title_es": "Puig Campana Art",
+        "title_en": "Puig Campana Art",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "palette.svg",
+        "color": "#487bb6",
+        "address": "Av. Picasso, 18",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5380092,-0.1731689",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210511,
+          38.5683009
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Artearte",
+        "title_es": "Artearte",
+        "title_en": "Artearte",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "palette.svg",
+        "color": "#487bb6",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683009,-0.210511",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2104735,
+          38.5683438
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Agrupació Coral de Finestrat",
+        "title_es": "Agrupació Coral de Finestrat",
+        "title_en": "Agrupació Coral de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "music.svg",
+        "color": "#487bb6",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683438,-0.2104735",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2105259,
+          38.5682198
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Rondalla Cordes i Veus Font del Molí",
+        "title_es": "Rondalla Cordes i Veus Font del Molí",
+        "title_en": "Rondalla Cordes i Veus Font del Molí",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "music.svg",
+        "color": "#487bb6",
+        "address": "c/ Fonteta, 12N",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5682198,-0.2105259",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2105419,
+          38.5683637
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Centre Musical Puig Campana",
+        "title_es": "Centre Musical Puig Campana",
+        "title_en": "Centre Musical Puig Campana",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "music.svg",
+        "color": "#487bb6",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683637,-0.2105419",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2135772,
+          38.5653541
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Club de Pilota Finestrat",
+        "title_es": "Club de Pilota Finestrat",
+        "title_en": "Club de Pilota Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "baseball.svg",
+        "color": "#487bb6",
+        "address": "Àrea esportiva Foia",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5653541,-0.2135772",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2129027,
+          38.5642918
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Unió Esportiva Finestrat",
+        "title_es": "Unió Esportiva Finestrat",
+        "title_en": "Unió Esportiva Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "futbol.svg",
+        "color": "#487bb6",
+        "address": "Àrea Esportiva Foia",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5642918,-0.2129027",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2135035,
+          38.5646589
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Club voleibol Finestrat",
+        "title_es": "Club voleibol Finestrat",
+        "title_en": "Club voleibol Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "volleyball.svg",
+        "color": "#487bb6",
+        "address": "Àrea Esportiva Foia",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5646589,-0.2135035",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2131106,
+          38.5646254
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Escuela Balonmano Finestrat",
+        "title_es": "Escuela Balonmano Finestrat",
+        "title_en": "Escuela Balonmano Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "basketball.svg",
+        "color": "#487bb6",
+        "address": "Àrea esportiva Foia",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5646254,-0.2131106",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2101786,
+          38.5681336
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Club Taekwondo Finestrat",
+        "title_es": "Club Taekwondo Finestrat",
+        "title_en": "Club Taekwondo Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand-fist.svg",
+        "color": "#487bb6",
+        "address": "Pl. de la Unió Europea",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5681336,-0.2101786",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2122392,
+          38.56703
+        ]
+      },
+      "properties": {
+        "category": "associacions_iniciatives",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Protecció Civil",
+        "title_es": "Protecció Civil",
+        "title_en": "Protecció Civil",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "shield-heart.svg",
+        "color": "#487bb6",
+        "address": "Pl. de la Torreta, 9",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.56703,-0.2122392",
+        "sourceCategoryLabel": "Associacions i iniciatives locals"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2134666,
+          38.5683254
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Consultori Auxiliar (nucli)",
+        "title_es": "Consultori Auxiliar (nucli)",
+        "title_en": "Consultori Auxiliar (nucli)",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "house-medical.svg",
+        "color": "#e9d500",
+        "address": "c/ Serra Cortina, 5",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683254,-0.2134666",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.168294,
+          38.531635
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Consultori Auxiliar Cala",
+        "title_es": "Consultori Auxiliar Cala",
+        "title_en": "Consultori Auxiliar Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "house-medical.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 27",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.531635,-0.168294",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21088,
+          38.568015
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Farmàcia del Casc Històric",
+        "title_es": "Farmàcia del Casc Històric",
+        "title_en": "Farmàcia del Casc Històric",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "mortar-pestle.svg",
+        "color": "#e9d500",
+        "address": "c/ Nou, 32",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.568015,-0.21088",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1662282,
+          38.526304
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Farmàcia de La Cala",
+        "title_es": "Farmàcia de La Cala",
+        "title_en": "Farmàcia de La Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "mortar-pestle.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 26",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.526304,-0.1662282",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1661256,
+          38.5269533
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Centre Social de la Cala",
+        "title_es": "Centre Social de la Cala",
+        "title_en": "Centre Social de la Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "people-group.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 3",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5269533,-0.1661256",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210471,
+          38.5683084
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Llar del Pensionista",
+        "title_es": "Llar del Pensionista",
+        "title_en": "Llar del Pensionista",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "person-cane.svg",
+        "color": "#e9d500",
+        "address": "c/ Fonteta, 14",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5683084,-0.210471",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2120419,
+          38.5672978
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Serveis Socials municipals",
+        "title_es": "Serveis Socials municipals",
+        "title_en": "Serveis Socials municipals",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand-holding-heart.svg",
+        "color": "#e9d500",
+        "address": "Pl. de l’Ajuntament, 1",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5672978,-0.2120419",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.200653,
+          38.548678
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador CEIP Balcó de Finestrat",
+        "title_es": "Desfibrilador CEIP Balcó de Finestrat",
+        "title_en": "Desfibrilador CEIP Balcó de Finestrat",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "Av. Sevilla, 8",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.548678,-0.200653",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.213022,
+          38.569114
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador CEIP Puig Campana",
+        "title_es": "Desfibrilador CEIP Puig Campana",
+        "title_en": "Desfibrilador CEIP Puig Campana",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "Av. Camí de Reis, 4",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.569114,-0.213022",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.167116,
+          38.5256609
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador Oficina de Turisme de la Cala",
+        "title_es": "Desfibrilador Oficina de Turisme de la Cala",
+        "title_en": "Desfibrilador Oficina de Turisme de la Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-pulse.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 1",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5256609,-0.167116",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2135127,
+          38.5682831
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador Consultori casc històric",
+        "title_es": "Desfibrilador Consultori casc històric",
+        "title_en": "Desfibrilador Consultori casc històric",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "c/ Serra Cortina, 5",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5682831,-0.2135127",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1684411,
+          38.5316199
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador Consultori Cala",
+        "title_es": "Desfibrilador Consultori Cala",
+        "title_en": "Desfibrilador Consultori Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 27",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5316199,-0.1684411",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.213975,
+          38.5651
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador Pavelló Esportiu",
+        "title_es": "Desfibrilador Pavelló Esportiu",
+        "title_en": "Desfibrilador Pavelló Esportiu",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "c/ Partida la Foia, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5651,-0.213975",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2129811,
+          38.563814
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Desfibrilador Camp de Futbol",
+        "title_es": "Desfibrilador Camp de Futbol",
+        "title_en": "Desfibrilador Camp de Futbol",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "heart-circle-bolt.svg",
+        "color": "#e9d500",
+        "address": "c/ Partida la Foia, s/n",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.563814,-0.2129811",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2117064,
+          38.5672901
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Fisiofines",
+        "title_es": "Fisiofines",
+        "title_en": "Fisiofines",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand.svg",
+        "color": "#e9d500",
+        "address": "Pl. del Poble, 3",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5672901,-0.2117064",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1658677,
+          38.5291081
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Fisioterapia Marina Baixa",
+        "title_es": "Fisioterapia Marina Baixa",
+        "title_en": "Fisioterapia Marina Baixa",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 54",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5291081,-0.1658677",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2106298,
+          38.5695944
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Santi y Sandra Entrenadores",
+        "title_es": "Santi y Sandra Entrenadores",
+        "title_en": "Santi y Sandra Entrenadores",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand.svg",
+        "color": "#e9d500",
+        "address": "Av. Reverendo Maximiliano López, 4",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5695944,-0.2106298",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16689,
+          38.5257
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Óptica La Cala",
+        "title_es": "Óptica La Cala",
+        "title_en": "Óptica La Cala",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "eye.svg",
+        "color": "#e9d500",
+        "address": "Av. Marina Baixa, 1",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5257,-0.16689",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1762586,
+          38.5390653
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Soloptical",
+        "title_es": "Soloptical",
+        "title_en": "Soloptical",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "eye.svg",
+        "color": "#e9d500",
+        "address": "Av. País Valencià, 2",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5390653,-0.1762586",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2135127,
+          38.568988
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "FormaSalud",
+        "title_es": "FormaSalud",
+        "title_en": "FormaSalud",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "hand.svg",
+        "color": "#e9d500",
+        "address": "Av. Camí de Reis, 7",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.568988,-0.2135127",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1755159,
+          38.5392453
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "Alain Afflelou Óptico y Audiólogo",
+        "title_es": "Alain Afflelou Óptico y Audiólogo",
+        "title_en": "Alain Afflelou Óptico y Audiólogo",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "eye.svg",
+        "color": "#e9d500",
+        "address": "Centro Comercial La Marina",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5392453,-0.1755159",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1753577,
+          38.5368364
+        ]
+      },
+      "properties": {
+        "category": "serveis_sociosanitaris_socials_privats",
+        "subcategory": "general",
+        "status": "finalitzat",
+        "title_ca": "MiOptico",
+        "title_es": "MiOptico",
+        "title_en": "MiOptico",
+        "description_ca": "",
+        "description_es": "",
+        "description_en": "",
+        "icon": "eye.svg",
+        "color": "#e9d500",
+        "address": "Ctra. Nueva de Finestrat a La Cala, Km. 5",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.5368364,-0.1753577",
+        "sourceCategoryLabel": "Serveis sociosanitaris i socials privats"
+      }
+    }
+  ]
+}

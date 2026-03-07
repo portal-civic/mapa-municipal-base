@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "espais_naturals",
+      "subcategories": [
+        { "id": "general" }
+      ]
+    },
+    {
+      "id": "equipaments_esportius_culturals",
+      "subcategories": [
+        { "id": "general" }
+      ]
+    },
+    {
+      "id": "associacions_iniciatives",
+      "subcategories": [
+        { "id": "general" }
+      ]
+    },
+    {
+      "id": "serveis_sociosanitaris_socials",
+      "subcategories": [
+        { "id": "general" }
+      ]
+    },
+    {
+      "id": "serveis_sociosanitaris_socials_privats",
+      "subcategories": [
+        { "id": "general" }
+      ]
+    }
+  ]
+}

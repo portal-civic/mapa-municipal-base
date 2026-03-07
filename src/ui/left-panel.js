@@ -46,6 +46,24 @@ export function renderFeatureDetails(container, feature, { t, i18n }) {
   details.appendChild(subcategory);
   details.appendChild(status);
 
+  if (props.address) {
+    const address = createEl("div", "detail-kv");
+    address.appendChild(createEl("strong", null, t("panel.address", "Adreça")));
+    address.appendChild(createEl("p", null, props.address));
+    details.appendChild(address);
+  }
+
+  if (props.directionsUrl) {
+    const directions = createEl("div", "detail-kv");
+    directions.appendChild(createEl("strong", null, t("panel.directions", "Com arribar")));
+    const link = createEl("a", "detail-link", t("panel.directions", "Com arribar"));
+    link.href = props.directionsUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    directions.appendChild(link);
+    details.appendChild(directions);
+  }
+
   section.appendChild(details);
   container.appendChild(section);
 }

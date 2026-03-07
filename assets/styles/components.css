@@ -79,6 +79,18 @@
   line-height: 1.4;
 }
 
+.detail-link {
+  margin-top: 0.3rem;
+  display: inline-flex;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
+}
+
 .status-pill {
   display: inline-flex;
   align-items: center;
@@ -110,4 +122,27 @@
 
 .app-footer small {
   color: var(--muted);
+}
+
+.poi-icon-marker {
+  background: transparent;
+  border: 0;
+}
+
+.poi-icon-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--poi-color, #4b5563);
+  border: 2px solid #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poi-icon-wrap img {
+  width: 16px;
+  height: 16px;
+  display: block;
 }

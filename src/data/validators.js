@@ -1,4 +1,5 @@
 const REQUIRED_STATUSES = new Set(["prevista", "en_execucio", "finalitzat"]);
+const HEX_COLOR = /^#([0-9a-fA-F]{6})$/;
 
 export function validateProjectData(data) {
   if (!data?.config || !data?.layers || !data?.geojson) {
@@ -18,6 +19,14 @@ export function validateProjectData(data) {
 
       if (!REQUIRED_STATUSES.has(props.status)) {
         throw new Error(`Status no vàlid: ${props.status}`);
+      }
+
+      if (props.color && !HEX_COLOR.test(props.color)) {
+        throw new Error(`Color no vàlid: ${props.color}`);
+      }
+
+      if (props.directionsUrl && typeof props.directionsUrl !== "string") {
+        throw new Error("directionsUrl ha de ser string");
       }
     }
   }

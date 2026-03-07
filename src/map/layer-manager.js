@@ -1,5 +1,6 @@
 import { getAreaStyle, getLineStyle, getPointStyle } from "./style-factory.js";
 import { bindFeatureInteractions } from "./interactions.js";
+import { resolveIconPath } from "../utils/icons.js";
 
 function featureMatchesFilters(feature, filters) {
   const props = feature.properties;
@@ -10,7 +11,7 @@ function featureMatchesFilters(feature, filters) {
   return categoryOk && subcategoryOk && statusOk;
 }
 
-export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureSelected }) {
+export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureSelected, projectSlug }) {
   const groups = {
     points: L.layerGroup().addTo(map),
     lines: L.layerGroup().addTo(map),
@@ -31,6 +32,33 @@ export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureS
 
   function tooltipText(feature) {
     return i18n.featureText(feature, "title") || i18n.featureText(feature, "name");
+  }
+
+  function buildPointLayer(feature) {
+    const [lng, lat] = feature.geometry.coordinates;
+    const iconName = feature.properties.icon;
+
+    if (!iconName) {
+      return L.circleMarker([lat, lng], getPointStyle(feature));
+    }
+
+    const iconPath = resolveIconPath(projectSlug, iconName);
+    const pointColor = feature.properties.color || "#4b5563";
+    const iconMarkup = `
+      <span class="poi-icon-wrap" style="--poi-color: ${pointColor};">
+        <img src="${iconPath.primary}" alt="" onerror="this.onerror=null;this.src='${iconPath.fallback}'" />
+      </span>
+    `;
+
+    const markerIcon = L.divIcon({
+      className: "poi-icon-marker",
+      html: iconMarkup,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+      popupAnchor: [0, -14],
+    });
+
+    return L.marker([lat, lng], { icon: markerIcon });
   }
 
   function redraw() {
@@ -59,7 +87,7 @@ export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureS
 
         let layer;
         if (kind === "points") {
-          layer = L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], getPointStyle(feature));
+          layer = buildPointLayer(feature);
         } else if (kind === "lines") {
           layer = L.geoJSON(feature, { style: () => getLineStyle(feature) });
         } else {

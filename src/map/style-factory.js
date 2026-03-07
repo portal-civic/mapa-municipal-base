@@ -12,9 +12,12 @@ function statusColor(status) {
 }
 
 export function getPointStyle(feature) {
+  const customColor = feature?.properties?.color;
+  const color = customColor || statusColor(feature.properties.status);
+
   return {
     radius: 7,
-    color: statusColor(feature.properties.status),
+    color,
     weight: 2,
     fillColor: "#ffffff",
     fillOpacity: 0.95,

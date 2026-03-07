@@ -3,8 +3,17 @@ export function resolveIconPath(projectSlug, iconName) {
     return null;
   }
 
+  if (/^https?:\/\//i.test(iconName)) {
+    return {
+      primary: iconName,
+      fallback: iconName,
+    };
+  }
+
+  const normalized = iconName.includes(".") ? iconName : `${iconName}.svg`;
+
   return {
-    project: `projects/${projectSlug}/icons/${iconName}`,
-    global: `assets/icons-global/${iconName}`,
+    primary: `projects/${projectSlug}/icons/${normalized}`,
+    fallback: `assets/icons-global/${normalized}`,
   };
 }

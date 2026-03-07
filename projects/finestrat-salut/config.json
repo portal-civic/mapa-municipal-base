@@ -1,0 +1,19 @@
+{
+  "defaultLanguage": "ca",
+  "map": {
+    "center": [38.558, -0.199],
+    "zoom": 13,
+    "minZoom": 11,
+    "maxZoom": 19
+  },
+  "basemapCrossfade": {
+    "startZoom": 16,
+    "endZoom": 18
+  },
+  "branding": {
+    "title": "Finestrat Salut",
+    "subtitle": "Mapa de recursos saludables",
+    "titleKey": "branding.title",
+    "subtitleKey": "branding.subtitle"
+  }
+}

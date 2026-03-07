@@ -1,0 +1,52 @@
+{
+  "branding": {
+    "title": "Finestrat Salut",
+    "subtitle": "Mapa de recursos saludables"
+  },
+  "common": {
+    "all": "Todos",
+    "mobile_menu": "Abrir paneles"
+  },
+  "panel": {
+    "detail_title": "Detalle",
+    "detail_empty": "Selecciona un punto en el mapa para ver el detalle.",
+    "description": "Descripción",
+    "no_description": "Sin descripción",
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "status": "Estado",
+    "address": "Dirección",
+    "directions": "Cómo llegar"
+  },
+  "layers": {
+    "title": "Capas",
+    "points": "Puntos",
+    "lines": "Líneas",
+    "areas": "Áreas"
+  },
+  "filters": {
+    "title": "Filtros",
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "status": "Estado"
+  },
+  "status": {
+    "prevista": "Prevista",
+    "en_execucio": "En ejecución",
+    "finalitzat": "Finalizado"
+  },
+  "categories": {
+    "espais_naturals": "Espacios naturales, zonas verdes y parques",
+    "equipaments_esportius_culturals": "Equipamientos deportivos y culturales",
+    "associacions_iniciatives": "Asociaciones e iniciativas locales",
+    "serveis_sociosanitaris_socials": "Servicios sociosanitarios y sociales",
+    "serveis_sociosanitaris_socials_privats": "Servicios sociosanitarios y sociales privados"
+  },
+  "subcategories": {
+    "general": "General"
+  },
+  "footer": {
+    "left": "Plataforma base reutilizable",
+    "right": "Proyecto"
+  }
+}
