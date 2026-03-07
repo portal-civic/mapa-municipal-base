@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.4061, 39.4019] },
+      "properties": {
+        "category": "espai_public",
+        "subcategory": "parcs",
+        "status": "en_execucio",
+        "title_ca": "Renovació del parc central",
+        "title_es": "Renovación del parque central",
+        "title_en": "Central park renovation",
+        "description_ca": "Millora de jocs infantils i pavimentació accessible.",
+        "description_es": "Mejora de juegos infantiles y pavimentación accesible.",
+        "description_en": "Improvement of playgrounds and accessible paving."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-0.4022, 39.4048] },
+      "properties": {
+        "category": "equipaments",
+        "subcategory": "culturals",
+        "status": "prevista",
+        "title_ca": "Nova biblioteca de barri",
+        "title_es": "Nueva biblioteca de barrio",
+        "title_en": "New neighborhood library",
+        "description_ca": "Projecte de nova sala de lectura i espai juvenil.",
+        "description_es": "Proyecto de nueva sala de lectura y espacio juvenil.",
+        "description_en": "Project for a new reading room and youth area."
+      }
+    }
+  ]
+}

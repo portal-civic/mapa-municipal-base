@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-0.4057, 39.3999],
+            [-0.4032, 39.3999],
+            [-0.4032, 39.4024],
+            [-0.4057, 39.4024],
+            [-0.4057, 39.3999]
+          ]
+        ]
+      },
+      "properties": {
+        "category": "espai_public",
+        "subcategory": "places",
+        "status": "finalitzat",
+        "title_ca": "Reurbanització de la plaça major",
+        "title_es": "Reurbanización de la plaza mayor",
+        "title_en": "Main square renewal",
+        "description_ca": "Actuació finalitzada amb arbrat i mobiliari nou.",
+        "description_es": "Actuación finalizada con arbolado y mobiliario nuevo.",
+        "description_en": "Completed project with new trees and street furniture."
+      }
+    }
+  ]
+}

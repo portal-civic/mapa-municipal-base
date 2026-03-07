@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "espai_public",
+      "subcategories": [
+        { "id": "parcs" },
+        { "id": "places" }
+      ]
+    },
+    {
+      "id": "mobilitat",
+      "subcategories": [
+        { "id": "carril_bici" },
+        { "id": "vianants" }
+      ]
+    },
+    {
+      "id": "equipaments",
+      "subcategories": [
+        { "id": "culturals" },
+        { "id": "esportius" }
+      ]
+    }
+  ]
+}

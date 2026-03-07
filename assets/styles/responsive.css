@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+  :root {
+    --panel-w: 280px;
+  }
+}
+
+@media (max-width: 840px) {
+  .app-main {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: min(86vw, 340px);
+    z-index: 1001;
+    box-shadow: var(--shadow);
+    transform: translateX(-110%);
+    transition: transform 0.2s ease;
+  }
+
+  .panel-right {
+    right: 0;
+    left: auto;
+    transform: translateX(110%);
+  }
+
+  .panel.open {
+    transform: translateX(0);
+  }
+
+  .mobile-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: 8px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+  }
+}

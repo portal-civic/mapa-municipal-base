@@ -1,0 +1,53 @@
+{
+  "branding": {
+    "title": "Mapa Municipal Demo",
+    "subtitle": "Infraestructura y espacio público"
+  },
+  "common": {
+    "all": "Todos",
+    "mobile_menu": "Abrir paneles"
+  },
+  "panel": {
+    "detail_title": "Detalle",
+    "detail_empty": "Selecciona un elemento en el mapa para ver el detalle.",
+    "description": "Descripción",
+    "no_description": "Sin descripción",
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "status": "Estado"
+  },
+  "layers": {
+    "title": "Capas",
+    "points": "Puntos",
+    "lines": "Líneas",
+    "areas": "Áreas"
+  },
+  "filters": {
+    "title": "Filtros",
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "status": "Estado"
+  },
+  "status": {
+    "prevista": "Prevista",
+    "en_execucio": "En ejecución",
+    "finalitzat": "Finalizado"
+  },
+  "categories": {
+    "espai_public": "Espacio público",
+    "mobilitat": "Movilidad",
+    "equipaments": "Equipamientos"
+  },
+  "subcategories": {
+    "parcs": "Parques",
+    "places": "Plazas",
+    "carril_bici": "Carril bici",
+    "vianants": "Peatones",
+    "culturals": "Culturales",
+    "esportius": "Deportivos"
+  },
+  "footer": {
+    "left": "Plataforma base reutilizable",
+    "right": "Proyecto"
+  }
+}

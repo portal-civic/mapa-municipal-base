@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.4091, 39.4008],
+          [-0.4072, 39.4020],
+          [-0.4048, 39.4035],
+          [-0.4027, 39.4050]
+        ]
+      },
+      "properties": {
+        "category": "mobilitat",
+        "subcategory": "carril_bici",
+        "status": "en_execucio",
+        "title_ca": "Eix cívic ciclable nord",
+        "title_es": "Eje cívico ciclable norte",
+        "title_en": "Northern cycle civic axis",
+        "description_ca": "Nou tram de connexió segura entre barris.",
+        "description_es": "Nuevo tramo de conexión segura entre barrios.",
+        "description_en": "New safe connection section between neighborhoods."
+      }
+    }
+  ]
+}

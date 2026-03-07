@@ -1,0 +1,14 @@
+{
+  "points": {
+    "enabled": true,
+    "minZoom": 12
+  },
+  "lines": {
+    "enabled": true,
+    "minZoom": 13
+  },
+  "areas": {
+    "enabled": true,
+    "minZoom": 12
+  }
+}

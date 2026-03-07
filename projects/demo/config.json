@@ -1,0 +1,19 @@
+{
+  "defaultLanguage": "ca",
+  "map": {
+    "center": [39.4026, -0.4042],
+    "zoom": 14,
+    "minZoom": 12,
+    "maxZoom": 19
+  },
+  "basemapCrossfade": {
+    "startZoom": 16,
+    "endZoom": 18
+  },
+  "branding": {
+    "title": "Mapa Municipal Demo",
+    "subtitle": "Infraestructura i espai públic",
+    "titleKey": "branding.title",
+    "subtitleKey": "branding.subtitle"
+  }
+}

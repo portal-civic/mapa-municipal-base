@@ -1,0 +1,53 @@
+{
+  "branding": {
+    "title": "Municipal Map Demo",
+    "subtitle": "Infrastructure and public space"
+  },
+  "common": {
+    "all": "All",
+    "mobile_menu": "Open panels"
+  },
+  "panel": {
+    "detail_title": "Details",
+    "detail_empty": "Select an element on the map to view details.",
+    "description": "Description",
+    "no_description": "No description",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "status": "Status"
+  },
+  "layers": {
+    "title": "Layers",
+    "points": "Points",
+    "lines": "Lines",
+    "areas": "Areas"
+  },
+  "filters": {
+    "title": "Filters",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "status": "Status"
+  },
+  "status": {
+    "prevista": "Planned",
+    "en_execucio": "In progress",
+    "finalitzat": "Completed"
+  },
+  "categories": {
+    "espai_public": "Public space",
+    "mobilitat": "Mobility",
+    "equipaments": "Facilities"
+  },
+  "subcategories": {
+    "parcs": "Parks",
+    "places": "Squares",
+    "carril_bici": "Bike lane",
+    "vianants": "Pedestrians",
+    "culturals": "Cultural",
+    "esportius": "Sports"
+  },
+  "footer": {
+    "left": "Reusable map base platform",
+    "right": "Project"
+  }
+}
