@@ -9,6 +9,12 @@ const root = path.resolve(__dirname, "..");
 const inputPath = path.join(root, "projects", "finestrat-salut", "raw", "finestrat-salut-net.csv");
 const mapPath = path.join(root, "projects", "finestrat-salut", "raw", "category-map.json");
 const outputPath = path.join(root, "projects", "finestrat-salut", "points.geojson");
+const CATEGORY_COLORS = {
+  espais_naturals: "#8ed581",
+  equipaments_esportius_culturals: "#f06636",
+  associacions_iniciatives: "#487bb6",
+  serveis_sociosanitaris_socials: "#e9d500",
+};
 
 function parseCsv(text) {
   const rows = [];
@@ -80,14 +86,6 @@ function isValidLatLng(lat, lng) {
   return Number.isFinite(lat) && Number.isFinite(lng) && lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180;
 }
 
-function parseHexColor(color) {
-  if (typeof color !== "string") {
-    return "";
-  }
-  const trimmed = color.trim();
-  return /^#([0-9a-fA-F]{6})$/.test(trimmed) ? trimmed.toLowerCase() : "";
-}
-
 function sanitizeText(value) {
   return (value || "").trim();
 }
@@ -104,7 +102,7 @@ async function main() {
   const body = rows.slice(1);
 
   const idx = Object.fromEntries(header.map((name, i) => [name, i]));
-  const requiredHeaders = ["name", "lat", "lng", "mainCategory", "icon", "color", "address", "directionsUrl"];
+  const requiredHeaders = ["name", "lat", "lng", "mainCategory", "icon", "address", "directionsUrl"];
 
   for (const key of requiredHeaders) {
     if (typeof idx[key] !== "number") {
@@ -158,7 +156,7 @@ async function main() {
         description_es: "",
         description_en: "",
         icon: iconName,
-        color: parseHexColor(row[idx.color]),
+        color: CATEGORY_COLORS[category] || "#4b5563",
         address: sanitizeText(row[idx.address]),
         directionsUrl: sanitizeText(row[idx.directionsUrl]),
         sourceCategoryLabel,
