@@ -14,7 +14,16 @@
     "no_description": "Sense descripció",
     "category": "Categoria",
     "subcategory": "Subcategoria",
-    "status": "Estat"
+    "status": "Estat",
+    "address": "Adreça",
+    "link": "Enllaç",
+    "directions": "Com arribar",
+    "general_heading": "Informació",
+    "general_overline": "Projecte",
+    "general_title": "Informació general",
+    "general_description": "Selecciona un element al mapa per vore el detall.",
+    "more_info": "Més informació",
+    "close": "Tancar"
   },
   "layers": {
     "title": "Capes",

@@ -4,7 +4,7 @@
     "subtitle": "Healthy resources map"
   },
   "common": {
-    "all": "All",
+    "all": "ALL",
     "mobile_menu": "Open panels"
   },
   "panel": {
@@ -16,7 +16,14 @@
     "subcategory": "Subcategory",
     "status": "Status",
     "address": "Address",
-    "directions": "Get directions"
+    "link": "Link",
+    "directions": "Get directions",
+    "general_heading": "Information",
+    "general_overline": "Project",
+    "general_title": "General information",
+    "general_description": "Select a point on the map to view details. You can use category and status filters to find resources faster.",
+    "more_info": "More information",
+    "close": "Close"
   },
   "layers": {
     "title": "Layers",
@@ -26,9 +33,13 @@
   },
   "filters": {
     "title": "Filters",
+    "categories_title": "Categories",
     "category": "Category",
     "subcategory": "Subcategory",
     "status": "Status"
+  },
+  "legend": {
+    "title": "Legend"
   },
   "status": {
     "prevista": "Planned",
@@ -42,7 +53,8 @@
     "serveis_sociosanitaris_socials": "Social and healthcare services"
   },
   "subcategories": {
-    "general": "General"
+    "general": "General",
+    "desfibriladors": "Defibrillators"
   },
   "footer": {
     "left": "Reusable base platform",

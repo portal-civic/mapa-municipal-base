@@ -10,6 +10,12 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/styles/base.css" />
     <link rel="stylesheet" href="assets/styles/layout.css" />
     <link rel="stylesheet" href="assets/styles/components.css" />
@@ -20,13 +26,14 @@
       <header id="app-header" class="app-header"></header>
 
       <main class="app-main">
-        <aside id="left-panel" class="panel panel-left"></aside>
-
         <section class="map-wrap">
           <div id="map" class="map"></div>
+          <div id="right-panels" class="right-panels">
+            <aside id="category-panel" class="floating-box category-panel"></aside>
+            <aside id="legend-panel" class="floating-box legend-panel"></aside>
+          </div>
+          <aside id="left-panel" class="floating-box detail-panel"></aside>
         </section>
-
-        <aside id="right-panel" class="panel panel-right"></aside>
       </main>
 
       <footer id="app-footer" class="app-footer"></footer>

@@ -1,31 +1,42 @@
 {
   "items": [
     {
+      "id": "serveis_sociosanitaris_socials",
+      "color": "#e9d500",
+      "subcategories": [
+        {
+          "id": "general"
+        },
+        {
+          "id": "desfibriladors"
+        }
+      ]
+    },
+    {
       "id": "espais_naturals",
       "color": "#8ed581",
       "subcategories": [
-        { "id": "general" }
+        {
+          "id": "general"
+        }
       ]
     },
     {
       "id": "equipaments_esportius_culturals",
       "color": "#f06636",
       "subcategories": [
-        { "id": "general" }
+        {
+          "id": "general"
+        }
       ]
     },
     {
       "id": "associacions_iniciatives",
       "color": "#487bb6",
       "subcategories": [
-        { "id": "general" }
-      ]
-    },
-    {
-      "id": "serveis_sociosanitaris_socials",
-      "color": "#e9d500",
-      "subcategories": [
-        { "id": "general" }
+        {
+          "id": "general"
+        }
       ]
     }
   ]

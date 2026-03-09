@@ -1,72 +1,72 @@
-﻿name,lat,lng,mainCategory,icon,color,address,directionsUrl
-Puig Campana,38.596417,-0.193684,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.596417,-0.193684"
-Platja de La Cala de Finestrat,38.5246793,-0.1657555,"Espais naturals, zones verdes i parcs",water,#8ed581,"Av. Marina Baixa, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5246793,-0.1657555"
-Serra d’Orxeta,38.5634009,-0.2438487,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.5634009,-0.2438487"
-Sender de Serra Cortina,38.562976,-0.183208,"Espais naturals, zones verdes i parcs",person-hiking,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.562976,-0.183208"
-Paratge dels Castellets,38.5968169,-0.2293915,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.5968169,-0.2293915"
-Font del Molí,38.578458,-0.208213,"Espais naturals, zones verdes i parcs",faucet-drip,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.578458,-0.208213"
-Jardins de l’Ermita,38.567226,-0.210336,"Espais naturals, zones verdes i parcs",seedling,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.567226,-0.210336"
-Zona verda del Balcó de Finestrat,38.549605,-0.200046,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Sevilla, 8","https://www.google.com/maps/dir/?api=1&destination=38.549605,-0.200046"
-Horts ecològics (La Penya),38.5655884,-0.2105809,"Espais naturals, zones verdes i parcs",seedling,#8ed581,Zona verda de 'La Penya' entre CV-761 i CV-759,"https://www.google.com/maps/dir/?api=1&destination=38.5655884,-0.2105809"
-Parc Alcalde Miguel Llorca,38.567556,-0.214377,"Espais naturals, zones verdes i parcs",seedling,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.567556,-0.214377"
-Parc Golf Bahía,38.549322,-0.18267,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Isla Ibiza, 14","https://www.google.com/maps/dir/?api=1&destination=38.549322,-0.18267"
-Parc de l’Avinguda de la Marina Baixa,38.5256388,-0.1665138,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5256388,-0.1665138"
-Parc de la plaça de la Unió Europea,38.5681263,-0.2098529,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5681263,-0.2098529"
-Parc Carrer Serra Cortina,38.5684574,-0.2137775,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Serra Cortina, 3","https://www.google.com/maps/dir/?api=1&destination=38.5684574,-0.2137775"
-Parc Avinguda Benidorm,38.569183,-0.2093892,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Benidorm, 24","https://www.google.com/maps/dir/?api=1&destination=38.569183,-0.2093892"
-Parc Carrer Hort,38.5685984,-0.2111024,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Hort, 5","https://www.google.com/maps/dir/?api=1&destination=38.5685984,-0.2111024"
-Parc de Terra Marina,38.5400944,-0.1839125,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5400944,-0.1839125"
-Pavelló Municipal,38.5650057,-0.2134671,Equipaments esportius i culturals,person-running,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5650057,-0.2134671"
-Piscina Municipal,38.568423,-0.2095597,Equipaments esportius i culturals,person-swimming,#f06636,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.568423,-0.2095597"
-Gimnàs Municipal,38.5684021,-0.2099558,Equipaments esportius i culturals,dumbbell,#f06636,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5684021,-0.2099558"
-Gimnàs del Pavelló Municipal,38.5651914,-0.2130736,Equipaments esportius i culturals,dumbbell,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5651914,-0.2130736"
-Camp de Futbol,38.56375,-0.2124621,Equipaments esportius i culturals,futbol,#f06636,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.56375,-0.2124621"
-Pumptrack,38.5635011,-0.2133861,Equipaments esportius i culturals,person-biking,#f06636,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5635011,-0.2133861"
-Trinquet,38.5647509,-0.2139089,Equipaments esportius i culturals,baseball,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5647509,-0.2139089"
-Pista de futbet de Terra Marina,38.5402143,-0.1837726,Equipaments esportius i culturals,futbol,#f06636,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5402143,-0.1837726"
-Pistes de vòlei platja de La Cala de Finestrat,38.5249688,-0.1667644,Equipaments esportius i culturals,volleyball,#f06636,"Av. Marina Baixa, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5249688,-0.1667644"
-Casa de Cultura,38.5683251,-0.2105414,Equipaments esportius i culturals,masks-theater,#f06636,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683251,-0.2105414"
-Biblioteca Municipal,38.5672264,-0.2112501,Equipaments esportius i culturals,book-open,#f06636,"c/ Sant Josep, 13","https://www.google.com/maps/dir/?api=1&destination=38.5672264,-0.2112501"
-Museu arqueològic i etnològic,38.567009,-0.214905,Equipaments esportius i culturals,landmark,#f06636,"c/ Font de Carré, s/n","https://www.google.com/maps/dir/?api=1&destination=38.567009,-0.214905"
-Centre Juvenil,38.568719,-0.210345,Equipaments esportius i culturals,user-group,#f06636,"c/ Fonteta, 36","https://www.google.com/maps/dir/?api=1&destination=38.568719,-0.210345"
-Amfiteatre del Castell,38.5668631,-0.2111616,Equipaments esportius i culturals,landmark-dome,#f06636,,"https://www.google.com/maps/dir/?api=1&destination=38.5668631,-0.2111616"
-Centre social de Terra Marina,38.5399939,-0.1839097,Equipaments esportius i culturals,people-group,#f06636,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5399939,-0.1839097"
-Plaça de l’Àmfora,38.52437,-0.1652,Equipaments esportius i culturals,people-group,#f06636,,"https://www.google.com/maps/dir/?api=1&destination=38.52437,-0.1652"
-Associació de Dones de Finestrat,38.5677513,-0.2112585,Associacions i iniciatives locals,person-dress,#487bb6,"c/ Nou, 19","https://www.google.com/maps/dir/?api=1&destination=38.5677513,-0.2112585"
-Associació de Pensionistes i Jubilats,38.5683721,-0.2105003,Associacions i iniciatives locals,person-cane,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683721,-0.2105003"
-Centre Excursionista El Portell,38.5675487,-0.2114707,Associacions i iniciatives locals,person-hiking,#487bb6,"c/ Nou, 5","https://www.google.com/maps/dir/?api=1&destination=38.5675487,-0.2114707"
-Agrupament d’Scouts,38.538184,-0.173284,Associacions i iniciatives locals,campground,#487bb6,"Av. Federico García Lorca, 16","https://www.google.com/maps/dir/?api=1&destination=38.538184,-0.173284"
-Escola del Sol,38.5680359,-0.2116918,Associacions i iniciatives locals,sun,#487bb6,"c/ Sant Vicent, 16","https://www.google.com/maps/dir/?api=1&destination=38.5680359,-0.2116918"
-Puig Campana Art,38.5380092,-0.1731689,Associacions i iniciatives locals,palette,#487bb6,"Av. Picasso, 18","https://www.google.com/maps/dir/?api=1&destination=38.5380092,-0.1731689"
-Artearte,38.5683009,-0.210511,Associacions i iniciatives locals,palette,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683009,-0.210511"
-Agrupació Coral de Finestrat,38.5683438,-0.2104735,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683438,-0.2104735"
-Rondalla Cordes i Veus Font del Molí,38.5682198,-0.2105259,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 12N","https://www.google.com/maps/dir/?api=1&destination=38.5682198,-0.2105259"
-Centre Musical Puig Campana,38.5683637,-0.2105419,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683637,-0.2105419"
-Club de Pilota Finestrat,38.5653541,-0.2135772,Associacions i iniciatives locals,baseball,#487bb6,Àrea esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5653541,-0.2135772"
-Unió Esportiva Finestrat,38.5642918,-0.2129027,Associacions i iniciatives locals,futbol,#487bb6,Àrea Esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5642918,-0.2129027"
-Club voleibol Finestrat,38.5646589,-0.2135035,Associacions i iniciatives locals,volleyball,#487bb6,Àrea Esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5646589,-0.2135035"
-Escuela Balonmano Finestrat,38.5646254,-0.2131106,Associacions i iniciatives locals,basketball,#487bb6,Àrea esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5646254,-0.2131106"
-Club Taekwondo Finestrat,38.5681336,-0.2101786,Associacions i iniciatives locals,hand-fist,#487bb6,Pl. de la Unió Europea,"https://www.google.com/maps/dir/?api=1&destination=38.5681336,-0.2101786"
-Protecció Civil,38.56703,-0.2122392,Associacions i iniciatives locals,shield-heart,#487bb6,"Pl. de la Torreta, 9","https://www.google.com/maps/dir/?api=1&destination=38.56703,-0.2122392"
-Consultori Auxiliar (nucli),38.5683254,-0.2134666,Serveis sociosanitaris i socials,house-medical,#e9d500,"c/ Serra Cortina, 5","https://www.google.com/maps/dir/?api=1&destination=38.5683254,-0.2134666"
-Consultori Auxiliar Cala,38.531635,-0.168294,Serveis sociosanitaris i socials,house-medical,#e9d500,"Av. Marina Baixa, 27","https://www.google.com/maps/dir/?api=1&destination=38.531635,-0.168294"
-Farmàcia del Casc Històric,38.568015,-0.21088,Serveis sociosanitaris i socials,mortar-pestle,#e9d500,"c/ Nou, 32","https://www.google.com/maps/dir/?api=1&destination=38.568015,-0.21088"
-Farmàcia de La Cala,38.526304,-0.1662282,Serveis sociosanitaris i socials,mortar-pestle,#e9d500,"Av. Marina Baixa, 26","https://www.google.com/maps/dir/?api=1&destination=38.526304,-0.1662282"
-Centre Social de la Cala,38.5269533,-0.1661256,Serveis sociosanitaris i socials,people-group,#e9d500,"Av. Marina Baixa, 3","https://www.google.com/maps/dir/?api=1&destination=38.5269533,-0.1661256"
-Llar del Pensionista,38.5683084,-0.210471,Serveis sociosanitaris i socials,person-cane,#e9d500,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683084,-0.210471"
-Serveis Socials municipals,38.5672978,-0.2120419,Serveis sociosanitaris i socials,hand-holding-heart,#e9d500,"Pl. de l’Ajuntament, 1","https://www.google.com/maps/dir/?api=1&destination=38.5672978,-0.2120419"
-Desfibrilador CEIP Balcó de Finestrat,38.548678,-0.200653,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Sevilla, 8","https://www.google.com/maps/dir/?api=1&destination=38.548678,-0.200653"
-Desfibrilador CEIP Puig Campana,38.569114,-0.213022,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Camí de Reis, 4","https://www.google.com/maps/dir/?api=1&destination=38.569114,-0.213022"
-Desfibrilador Oficina de Turisme de la Cala,38.5256609,-0.167116,Serveis sociosanitaris i socials,heart-pulse,#e9d500,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5256609,-0.167116"
-Desfibrilador Consultori casc històric,38.5682831,-0.2135127,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Serra Cortina, 5","https://www.google.com/maps/dir/?api=1&destination=38.5682831,-0.2135127"
-Desfibrilador Consultori Cala,38.5316199,-0.1684411,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Marina Baixa, 27","https://www.google.com/maps/dir/?api=1&destination=38.5316199,-0.1684411"
-Desfibrilador Pavelló Esportiu,38.5651,-0.213975,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5651,-0.213975"
-Desfibrilador Camp de Futbol,38.563814,-0.2129811,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.563814,-0.2129811"
-Fisiofines,38.5672901,-0.2117064,Serveis sociosanitaris i socials privats,hand,#e9d500,"Pl. del Poble, 3","https://www.google.com/maps/dir/?api=1&destination=38.5672901,-0.2117064"
-Fisioterapia Marina Baixa,38.5291081,-0.1658677,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Marina Baixa, 54","https://www.google.com/maps/dir/?api=1&destination=38.5291081,-0.1658677"
-Santi y Sandra Entrenadores,38.5695944,-0.2106298,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Reverendo Maximiliano López, 4","https://www.google.com/maps/dir/?api=1&destination=38.5695944,-0.2106298"
-Óptica La Cala,38.5257,-0.16689,Serveis sociosanitaris i socials privats,eye,#e9d500,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5257,-0.16689"
-Soloptical,38.5390653,-0.1762586,Serveis sociosanitaris i socials privats,eye,#e9d500,"Av. País Valencià, 2","https://www.google.com/maps/dir/?api=1&destination=38.5390653,-0.1762586"
-FormaSalud,38.568988,-0.2135127,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Camí de Reis, 7","https://www.google.com/maps/dir/?api=1&destination=38.568988,-0.2135127"
-Alain Afflelou Óptico y Audiólogo,38.5392453,-0.1755159,Serveis sociosanitaris i socials privats,eye,#e9d500,Centro Comercial La Marina,"https://www.google.com/maps/dir/?api=1&destination=38.5392453,-0.1755159"
-MiOptico,38.5368364,-0.1753577,Serveis sociosanitaris i socials privats,eye,#e9d500,"Ctra. Nueva de Finestrat a La Cala, Km. 5","https://www.google.com/maps/dir/?api=1&destination=38.5368364,-0.1753577"
+﻿name,lat,lng,mainCategory,icon,color,address,directionsUrl,subcategory,categoryOrder
+Puig Campana,38.596417,-0.193684,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.596417,-0.193684",General,2
+Platja de La Cala de Finestrat,38.5246793,-0.1657555,"Espais naturals, zones verdes i parcs",water,#8ed581,"Av. Marina Baixa, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5246793,-0.1657555",General,2
+Serra d’Orxeta,38.5634009,-0.2438487,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.5634009,-0.2438487",General,2
+Sender de Serra Cortina,38.562976,-0.183208,"Espais naturals, zones verdes i parcs",person-hiking,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.562976,-0.183208",General,2
+Paratge dels Castellets,38.5968169,-0.2293915,"Espais naturals, zones verdes i parcs",mountain,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.5968169,-0.2293915",General,2
+Font del Molí,38.578458,-0.208213,"Espais naturals, zones verdes i parcs",faucet-drip,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.578458,-0.208213",General,2
+Jardins de l’Ermita,38.567226,-0.210336,"Espais naturals, zones verdes i parcs",seedling,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.567226,-0.210336",General,2
+Zona verda del Balcó de Finestrat,38.549605,-0.200046,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Sevilla, 8","https://www.google.com/maps/dir/?api=1&destination=38.549605,-0.200046",General,2
+Horts ecològics (La Penya),38.5655884,-0.2105809,"Espais naturals, zones verdes i parcs",seedling,#8ed581,Zona verda de 'La Penya' entre CV-761 i CV-759,"https://www.google.com/maps/dir/?api=1&destination=38.5655884,-0.2105809",General,2
+Parc Alcalde Miguel Llorca,38.567556,-0.214377,"Espais naturals, zones verdes i parcs",seedling,#8ed581,,"https://www.google.com/maps/dir/?api=1&destination=38.567556,-0.214377",General,2
+Parc Golf Bahía,38.549322,-0.18267,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Isla Ibiza, 14","https://www.google.com/maps/dir/?api=1&destination=38.549322,-0.18267",General,2
+Parc de l’Avinguda de la Marina Baixa,38.5256388,-0.1665138,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5256388,-0.1665138",General,2
+Parc de la plaça de la Unió Europea,38.5681263,-0.2098529,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5681263,-0.2098529",General,2
+Parc Carrer Serra Cortina,38.5684574,-0.2137775,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Serra Cortina, 3","https://www.google.com/maps/dir/?api=1&destination=38.5684574,-0.2137775",General,2
+Parc Avinguda Benidorm,38.569183,-0.2093892,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Benidorm, 24","https://www.google.com/maps/dir/?api=1&destination=38.569183,-0.2093892",General,2
+Parc Carrer Hort,38.5685984,-0.2111024,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"c/ Hort, 5","https://www.google.com/maps/dir/?api=1&destination=38.5685984,-0.2111024",General,2
+Parc de Terra Marina,38.5400944,-0.1839125,"Espais naturals, zones verdes i parcs",seedling,#8ed581,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5400944,-0.1839125",General,2
+Pavelló Municipal,38.5650057,-0.2134671,Equipaments esportius i culturals,person-running,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5650057,-0.2134671",General,3
+Piscina Municipal,38.568423,-0.2095597,Equipaments esportius i culturals,person-swimming,#f06636,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.568423,-0.2095597",General,3
+Gimnàs Municipal,38.5684021,-0.2099558,Equipaments esportius i culturals,dumbbell,#f06636,"Pl. de la Unió Europea, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5684021,-0.2099558",General,3
+Gimnàs del Pavelló Municipal,38.5651914,-0.2130736,Equipaments esportius i culturals,dumbbell,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5651914,-0.2130736",General,3
+Camp de Futbol,38.56375,-0.2124621,Equipaments esportius i culturals,futbol,#f06636,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.56375,-0.2124621",General,3
+Pumptrack,38.5635011,-0.2133861,Equipaments esportius i culturals,person-biking,#f06636,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5635011,-0.2133861",General,3
+Trinquet,38.5647509,-0.2139089,Equipaments esportius i culturals,baseball,#f06636,"c/ Partida la Foia, 6","https://www.google.com/maps/dir/?api=1&destination=38.5647509,-0.2139089",General,3
+Pista de futbet de Terra Marina,38.5402143,-0.1837726,Equipaments esportius i culturals,futbol,#f06636,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5402143,-0.1837726",General,3
+Pistes de vòlei platja de La Cala de Finestrat,38.5249688,-0.1667644,Equipaments esportius i culturals,volleyball,#f06636,"Av. Marina Baixa, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5249688,-0.1667644",General,3
+Casa de Cultura,38.5683251,-0.2105414,Equipaments esportius i culturals,masks-theater,#f06636,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683251,-0.2105414",General,3
+Biblioteca Municipal,38.5672264,-0.2112501,Equipaments esportius i culturals,book-open,#f06636,"c/ Sant Josep, 13","https://www.google.com/maps/dir/?api=1&destination=38.5672264,-0.2112501",General,3
+Museu arqueològic i etnològic,38.567009,-0.214905,Equipaments esportius i culturals,landmark,#f06636,"c/ Font de Carré, s/n","https://www.google.com/maps/dir/?api=1&destination=38.567009,-0.214905",General,3
+Centre Juvenil,38.568719,-0.210345,Equipaments esportius i culturals,user-group,#f06636,"c/ Fonteta, 36","https://www.google.com/maps/dir/?api=1&destination=38.568719,-0.210345",General,3
+Amfiteatre del Castell,38.5668631,-0.2111616,Equipaments esportius i culturals,landmark-dome,#f06636,,"https://www.google.com/maps/dir/?api=1&destination=38.5668631,-0.2111616",General,3
+Centre social de Terra Marina,38.5399939,-0.1839097,Equipaments esportius i culturals,people-group,#f06636,"Av. Costa Blanca, 71","https://www.google.com/maps/dir/?api=1&destination=38.5399939,-0.1839097",General,3
+Plaça de l’Àmfora,38.52437,-0.1652,Equipaments esportius i culturals,people-group,#f06636,,"https://www.google.com/maps/dir/?api=1&destination=38.52437,-0.1652",General,3
+Associació de Dones de Finestrat,38.5677513,-0.2112585,Associacions i iniciatives locals,person-dress,#487bb6,"c/ Nou, 19","https://www.google.com/maps/dir/?api=1&destination=38.5677513,-0.2112585",General,4
+Associació de Pensionistes i Jubilats,38.5683721,-0.2105003,Associacions i iniciatives locals,person-cane,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683721,-0.2105003",General,4
+Centre Excursionista El Portell,38.5675487,-0.2114707,Associacions i iniciatives locals,person-hiking,#487bb6,"c/ Nou, 5","https://www.google.com/maps/dir/?api=1&destination=38.5675487,-0.2114707",General,4
+Agrupament d’Scouts,38.538184,-0.173284,Associacions i iniciatives locals,campground,#487bb6,"Av. Federico García Lorca, 16","https://www.google.com/maps/dir/?api=1&destination=38.538184,-0.173284",General,4
+Escola del Sol,38.5680359,-0.2116918,Associacions i iniciatives locals,sun,#487bb6,"c/ Sant Vicent, 16","https://www.google.com/maps/dir/?api=1&destination=38.5680359,-0.2116918",General,4
+Puig Campana Art,38.5380092,-0.1731689,Associacions i iniciatives locals,palette,#487bb6,"Av. Picasso, 18","https://www.google.com/maps/dir/?api=1&destination=38.5380092,-0.1731689",General,4
+Artearte,38.5683009,-0.210511,Associacions i iniciatives locals,palette,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683009,-0.210511",General,4
+Agrupació Coral de Finestrat,38.5683438,-0.2104735,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683438,-0.2104735",General,4
+Rondalla Cordes i Veus Font del Molí,38.5682198,-0.2105259,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 12N","https://www.google.com/maps/dir/?api=1&destination=38.5682198,-0.2105259",General,4
+Centre Musical Puig Campana,38.5683637,-0.2105419,Associacions i iniciatives locals,music,#487bb6,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683637,-0.2105419",General,4
+Club de Pilota Finestrat,38.5653541,-0.2135772,Associacions i iniciatives locals,baseball,#487bb6,Àrea esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5653541,-0.2135772",General,4
+Unió Esportiva Finestrat,38.5642918,-0.2129027,Associacions i iniciatives locals,futbol,#487bb6,Àrea Esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5642918,-0.2129027",General,4
+Club voleibol Finestrat,38.5646589,-0.2135035,Associacions i iniciatives locals,volleyball,#487bb6,Àrea Esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5646589,-0.2135035",General,4
+Escuela Balonmano Finestrat,38.5646254,-0.2131106,Associacions i iniciatives locals,basketball,#487bb6,Àrea esportiva Foia,"https://www.google.com/maps/dir/?api=1&destination=38.5646254,-0.2131106",General,4
+Club Taekwondo Finestrat,38.5681336,-0.2101786,Associacions i iniciatives locals,hand-fist,#487bb6,Pl. de la Unió Europea,"https://www.google.com/maps/dir/?api=1&destination=38.5681336,-0.2101786",General,4
+Protecció Civil,38.56703,-0.2122392,Associacions i iniciatives locals,shield-heart,#487bb6,"Pl. de la Torreta, 9","https://www.google.com/maps/dir/?api=1&destination=38.56703,-0.2122392",General,4
+Consultori Auxiliar (nucli),38.5683254,-0.2134666,Serveis sociosanitaris i socials,house-medical,#e9d500,"c/ Serra Cortina, 5","https://www.google.com/maps/dir/?api=1&destination=38.5683254,-0.2134666",General,1
+Consultori Auxiliar Cala,38.531635,-0.168294,Serveis sociosanitaris i socials,house-medical,#e9d500,"Av. Marina Baixa, 27","https://www.google.com/maps/dir/?api=1&destination=38.531635,-0.168294",General,1
+Farmàcia del Casc Històric,38.568015,-0.21088,Serveis sociosanitaris i socials,mortar-pestle,#e9d500,"c/ Nou, 32","https://www.google.com/maps/dir/?api=1&destination=38.568015,-0.21088",General,1
+Farmàcia de La Cala,38.526304,-0.1662282,Serveis sociosanitaris i socials,mortar-pestle,#e9d500,"Av. Marina Baixa, 26","https://www.google.com/maps/dir/?api=1&destination=38.526304,-0.1662282",General,1
+Centre Social de la Cala,38.5269533,-0.1661256,Serveis sociosanitaris i socials,people-group,#e9d500,"Av. Marina Baixa, 3","https://www.google.com/maps/dir/?api=1&destination=38.5269533,-0.1661256",General,1
+Llar del Pensionista,38.5683084,-0.210471,Serveis sociosanitaris i socials,person-cane,#e9d500,"c/ Fonteta, 14","https://www.google.com/maps/dir/?api=1&destination=38.5683084,-0.210471",General,1
+Serveis Socials municipals,38.5672978,-0.2120419,Serveis sociosanitaris i socials,hand-holding-heart,#e9d500,"Pl. de l’Ajuntament, 1","https://www.google.com/maps/dir/?api=1&destination=38.5672978,-0.2120419",General,1
+Desfibrilador CEIP Balcó de Finestrat,38.548678,-0.200653,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Sevilla, 8","https://www.google.com/maps/dir/?api=1&destination=38.548678,-0.200653",Desfibriladors,1
+Desfibrilador CEIP Puig Campana,38.569114,-0.213022,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Camí de Reis, 4","https://www.google.com/maps/dir/?api=1&destination=38.569114,-0.213022",Desfibriladors,1
+Desfibrilador Oficina de Turisme de la Cala,38.5256609,-0.167116,Serveis sociosanitaris i socials,heart-pulse,#e9d500,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5256609,-0.167116",Desfibriladors,1
+Desfibrilador Consultori casc històric,38.5682831,-0.2135127,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Serra Cortina, 5","https://www.google.com/maps/dir/?api=1&destination=38.5682831,-0.2135127",Desfibriladors,1
+Desfibrilador Consultori Cala,38.5316199,-0.1684411,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"Av. Marina Baixa, 27","https://www.google.com/maps/dir/?api=1&destination=38.5316199,-0.1684411",Desfibriladors,1
+Desfibrilador Pavelló Esportiu,38.5651,-0.213975,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.5651,-0.213975",Desfibriladors,1
+Desfibrilador Camp de Futbol,38.563814,-0.2129811,Serveis sociosanitaris i socials,heart-circle-bolt,#e9d500,"c/ Partida la Foia, s/n","https://www.google.com/maps/dir/?api=1&destination=38.563814,-0.2129811",Desfibriladors,1
+Fisiofines,38.5672901,-0.2117064,Serveis sociosanitaris i socials privats,hand,#e9d500,"Pl. del Poble, 3","https://www.google.com/maps/dir/?api=1&destination=38.5672901,-0.2117064",General,1
+Fisioterapia Marina Baixa,38.5291081,-0.1658677,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Marina Baixa, 54","https://www.google.com/maps/dir/?api=1&destination=38.5291081,-0.1658677",General,1
+Santi y Sandra Entrenadores,38.5695944,-0.2106298,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Reverendo Maximiliano López, 4","https://www.google.com/maps/dir/?api=1&destination=38.5695944,-0.2106298",General,1
+Óptica La Cala,38.5257,-0.16689,Serveis sociosanitaris i socials privats,eye,#e9d500,"Av. Marina Baixa, 1","https://www.google.com/maps/dir/?api=1&destination=38.5257,-0.16689",General,1
+Soloptical,38.5390653,-0.1762586,Serveis sociosanitaris i socials privats,eye,#e9d500,"Av. País Valencià, 2","https://www.google.com/maps/dir/?api=1&destination=38.5390653,-0.1762586",General,1
+FormaSalud,38.568988,-0.2135127,Serveis sociosanitaris i socials privats,hand,#e9d500,"Av. Camí de Reis, 7","https://www.google.com/maps/dir/?api=1&destination=38.568988,-0.2135127",General,1
+Alain Afflelou Óptico y Audiólogo,38.5392453,-0.1755159,Serveis sociosanitaris i socials privats,eye,#e9d500,Centro Comercial La Marina,"https://www.google.com/maps/dir/?api=1&destination=38.5392453,-0.1755159",General,1
+MiOptico,38.5368364,-0.1753577,Serveis sociosanitaris i socials privats,eye,#e9d500,"Ctra. Nueva de Finestrat a La Cala, Km. 5","https://www.google.com/maps/dir/?api=1&destination=38.5368364,-0.1753577",General,1

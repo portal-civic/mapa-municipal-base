@@ -21,24 +21,15 @@
 
 .app-main {
   min-height: 0;
-  display: grid;
-  grid-template-columns: var(--panel-w) 1fr var(--panel-w);
-}
-
-.panel {
-  background: var(--surface);
-  border-right: 1px solid var(--border);
-  overflow: auto;
-}
-
-.panel-right {
-  border-right: 0;
-  border-left: 1px solid var(--border);
+  height: 100%;
+  position: relative;
 }
 
 .map-wrap {
   min-width: 0;
   min-height: 0;
+  height: 100%;
+  position: relative;
 }
 
 .map {

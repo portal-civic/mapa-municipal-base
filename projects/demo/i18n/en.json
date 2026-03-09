@@ -14,7 +14,16 @@
     "no_description": "No description",
     "category": "Category",
     "subcategory": "Subcategory",
-    "status": "Status"
+    "status": "Status",
+    "address": "Address",
+    "link": "Link",
+    "directions": "Get directions",
+    "general_heading": "Information",
+    "general_overline": "Project",
+    "general_title": "General information",
+    "general_description": "Select an element on the map to view details.",
+    "more_info": "More information",
+    "close": "Close"
   },
   "layers": {
     "title": "Layers",

@@ -4,7 +4,7 @@
     "subtitle": "Mapa de recursos saludables"
   },
   "common": {
-    "all": "Todos",
+    "all": "TODAS",
     "mobile_menu": "Abrir paneles"
   },
   "panel": {
@@ -16,7 +16,14 @@
     "subcategory": "Subcategoría",
     "status": "Estado",
     "address": "Dirección",
-    "directions": "Cómo llegar"
+    "link": "Enlace",
+    "directions": "Cómo llegar",
+    "general_heading": "Información",
+    "general_overline": "Proyecto",
+    "general_title": "Información general",
+    "general_description": "Selecciona un punto en el mapa para ver el detalle. Puedes usar los filtros por categoría y estado para encontrar recursos más rápido.",
+    "more_info": "Más información",
+    "close": "Cerrar"
   },
   "layers": {
     "title": "Capas",
@@ -26,9 +33,13 @@
   },
   "filters": {
     "title": "Filtros",
+    "categories_title": "Categorías",
     "category": "Categoría",
     "subcategory": "Subcategoría",
     "status": "Estado"
+  },
+  "legend": {
+    "title": "Leyenda"
   },
   "status": {
     "prevista": "Prevista",
@@ -42,7 +53,8 @@
     "serveis_sociosanitaris_socials": "Servicios sociosanitarios y sociales"
   },
   "subcategories": {
-    "general": "General"
+    "general": "General",
+    "desfibriladors": "Desfibriladores"
   },
   "footer": {
     "left": "Plataforma base reutilizable",

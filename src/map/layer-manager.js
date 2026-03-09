@@ -1,6 +1,10 @@
 import { getAreaStyle, getLineStyle, getPointStyle } from "./style-factory.js";
 import { bindFeatureInteractions } from "./interactions.js";
-import { resolveIconPath } from "../utils/icons.js";
+import {
+  buildPoiIconMarkup,
+  buildPoiTooltipMarkup,
+  POI_MARKER_SIZE,
+} from "../utils/icons.js";
 
 function featureMatchesFilters(feature, filters) {
   const props = feature.properties;
@@ -24,38 +28,56 @@ export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureS
     status: "all",
   };
 
-  let visibility = {
-    points: true,
-    lines: true,
-    areas: true,
-  };
-
   function tooltipText(feature) {
     return i18n.featureText(feature, "title") || i18n.featureText(feature, "name");
+  }
+
+  function resolveFeatureColor(feature) {
+    return feature?.properties?.color || getPointStyle(feature).color || "#4b5563";
+  }
+
+  function tooltipForFeature(feature) {
+    const text = tooltipText(feature);
+    if (!text) {
+      return null;
+    }
+
+    if (feature.properties.geometry_kind === "points") {
+      const color = resolveFeatureColor(feature);
+      return {
+        content: buildPoiTooltipMarkup({ text, color }),
+        options: {
+          direction: "top",
+          opacity: 1,
+          sticky: true,
+          offset: [0, -(POI_MARKER_SIZE / 2 + 10)],
+          className: "poi-short-tooltip",
+        },
+      };
+    }
+
+    return {
+      content: text,
+      options: {
+        direction: "top",
+        opacity: 0.95,
+        sticky: true,
+      },
+    };
   }
 
   function buildPointLayer(feature) {
     const [lng, lat] = feature.geometry.coordinates;
     const iconName = feature.properties.icon;
-
-    if (!iconName) {
-      return L.circleMarker([lat, lng], getPointStyle(feature));
-    }
-
-    const iconPath = resolveIconPath(projectSlug, iconName);
-    const pointColor = feature.properties.color || "#4b5563";
-    const iconMarkup = `
-      <span class="poi-icon-wrap" style="--poi-color: ${pointColor};">
-        <img src="${iconPath.primary}" alt="" onerror="this.onerror=null;this.src='${iconPath.fallback}'" />
-      </span>
-    `;
+    const pointColor = resolveFeatureColor(feature);
+    const iconMarkup = buildPoiIconMarkup({ color: pointColor, iconName });
 
     const markerIcon = L.divIcon({
       className: "poi-icon-marker",
       html: iconMarkup,
-      iconSize: [28, 28],
-      iconAnchor: [14, 14],
-      popupAnchor: [0, -14],
+      iconSize: [POI_MARKER_SIZE, POI_MARKER_SIZE],
+      iconAnchor: [POI_MARKER_SIZE / 2, POI_MARKER_SIZE / 2],
+      popupAnchor: [0, -(POI_MARKER_SIZE / 2)],
     });
 
     return L.marker([lat, lng], { icon: markerIcon });
@@ -65,15 +87,11 @@ export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureS
     Object.values(groups).forEach((group) => group.clearLayers());
 
     const handlers = {
-      getTooltipText: tooltipText,
+      getTooltip: tooltipForFeature,
       onClick: onFeatureSelected,
     };
 
     for (const kind of ["points", "lines", "areas"]) {
-      if (!visibility[kind]) {
-        continue;
-      }
-
       const dataset = geojson[kind];
       const minZoom = layerConfig[kind]?.minZoom ?? 0;
       if (map.getZoom() < minZoom) {
@@ -113,13 +131,6 @@ export function createLayerManager({ map, geojson, layerConfig, i18n, onFeatureS
       currentFilters = {
         ...currentFilters,
         ...filters,
-      };
-      redraw();
-    },
-    setVisibility(nextVisibility) {
-      visibility = {
-        ...visibility,
-        ...nextVisibility,
       };
       redraw();
     },

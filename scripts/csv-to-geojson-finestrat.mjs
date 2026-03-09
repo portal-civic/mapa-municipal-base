@@ -9,6 +9,7 @@ const root = path.resolve(__dirname, "..");
 const inputPath = path.join(root, "projects", "finestrat-salut", "raw", "finestrat-salut-net.csv");
 const mapPath = path.join(root, "projects", "finestrat-salut", "raw", "category-map.json");
 const outputPath = path.join(root, "projects", "finestrat-salut", "points.geojson");
+const categoriesOutputPath = path.join(root, "projects", "finestrat-salut", "categories.json");
 const CATEGORY_COLORS = {
   espais_naturals: "#8ed581",
   equipaments_esportius_culturals: "#f06636",
@@ -90,6 +91,11 @@ function sanitizeText(value) {
   return (value || "").trim();
 }
 
+function toFiniteOrder(value) {
+  const parsed = Number.parseInt(`${value}`.trim(), 10);
+  return Number.isFinite(parsed) ? parsed : 9999;
+}
+
 async function main() {
   const [csvRaw, categoryMapRaw] = await Promise.all([
     readFile(inputPath, "utf8"),
@@ -115,6 +121,7 @@ async function main() {
   const discarded = [];
   const categoriesDetected = new Set();
   const iconsDetected = new Set();
+  const categoryMetaMap = new Map();
 
   for (let i = 0; i < body.length; i += 1) {
     const row = body[i];
@@ -124,6 +131,11 @@ async function main() {
     const lat = Number.parseFloat(sanitizeText(row[idx.lat]));
     const lng = Number.parseFloat(sanitizeText(row[idx.lng]));
     const sourceCategoryLabel = sanitizeText(row[idx.mainCategory]);
+    const sourceSubcategoryLabel = typeof idx.subcategory === "number" ? sanitizeText(row[idx.subcategory]) : "";
+    const sourceCategoryId = typeof idx.mainCategoryId === "number" ? sanitizeText(row[idx.mainCategoryId]) : "";
+    const sourceSubcategoryId = typeof idx.subcategoryId === "number" ? sanitizeText(row[idx.subcategoryId]) : "";
+    const sourceCategoryOrder = typeof idx.categoryOrder === "number" ? sanitizeText(row[idx.categoryOrder]) : "";
+    const sourceCategoryColor = typeof idx.color === "number" ? sanitizeText(row[idx.color]) : "";
     const iconNameRaw = sanitizeText(row[idx.icon]);
 
     if (!name || !sourceCategoryLabel || !isValidLatLng(lat, lng)) {
@@ -131,12 +143,39 @@ async function main() {
       continue;
     }
 
-    const category = categoryMap[sourceCategoryLabel] || toSlugFallback(sourceCategoryLabel);
+    const category = sourceCategoryId || categoryMap[sourceCategoryLabel] || toSlugFallback(sourceCategoryLabel);
+    const subcategory = sourceSubcategoryId || (sourceSubcategoryLabel ? toSlugFallback(sourceSubcategoryLabel) : "general");
+    const categoryOrder = toFiniteOrder(sourceCategoryOrder);
+    const categoryColor = sourceCategoryColor || CATEGORY_COLORS[category] || "#4b5563";
     categoriesDetected.add(sourceCategoryLabel);
 
     const iconName = iconNameRaw ? `${iconNameRaw}.svg` : "";
     if (iconName) {
       iconsDetected.add(iconNameRaw);
+    }
+
+    const existingCategoryMeta = categoryMetaMap.get(category);
+    if (!existingCategoryMeta) {
+      categoryMetaMap.set(category, {
+        id: category,
+        color: categoryColor,
+        order: categoryOrder,
+        sourceLabel: sourceCategoryLabel,
+        firstSeen: i,
+        subcategories: new Map(),
+      });
+    } else if (categoryOrder < existingCategoryMeta.order) {
+      existingCategoryMeta.order = categoryOrder;
+    }
+
+    const categoryMeta = categoryMetaMap.get(category);
+    const subExisting = categoryMeta.subcategories.get(subcategory);
+    if (!subExisting) {
+      categoryMeta.subcategories.set(subcategory, {
+        id: subcategory,
+        sourceLabel: sourceSubcategoryLabel || "General",
+        firstSeen: i,
+      });
     }
 
     const feature = {
@@ -147,7 +186,8 @@ async function main() {
       },
       properties: {
         category,
-        subcategory: "general",
+        subcategory,
+        categoryOrder,
         status: "finalitzat",
         title_ca: name,
         title_es: name,
@@ -156,10 +196,11 @@ async function main() {
         description_es: "",
         description_en: "",
         icon: iconName,
-        color: CATEGORY_COLORS[category] || "#4b5563",
+        color: categoryColor,
         address: sanitizeText(row[idx.address]),
         directionsUrl: sanitizeText(row[idx.directionsUrl]),
         sourceCategoryLabel,
+        sourceSubcategoryLabel,
       },
     };
 
@@ -171,13 +212,30 @@ async function main() {
     features,
   };
 
+  const categoriesOutput = {
+    items: [...categoryMetaMap.values()]
+      .sort((a, b) => (a.order - b.order) || (a.firstSeen - b.firstSeen) || a.sourceLabel.localeCompare(b.sourceLabel, "ca"))
+      .map((category) => {
+        const subcategories = [...category.subcategories.values()]
+          .sort((a, b) => (a.firstSeen - b.firstSeen) || a.sourceLabel.localeCompare(b.sourceLabel, "ca"))
+          .map((subcategory) => ({ id: subcategory.id }));
+        return {
+          id: category.id,
+          color: category.color,
+          subcategories,
+        };
+      }),
+  };
+
   await writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
+  await writeFile(categoriesOutputPath, `${JSON.stringify(categoriesOutput, null, 2)}\n`, "utf8");
 
   console.log("[csv->geojson] input rows:", body.length);
   console.log("[csv->geojson] features generated:", features.length);
   console.log("[csv->geojson] rows discarded:", discarded.length);
   console.log("[csv->geojson] categories detected:", [...categoriesDetected].sort().join(" | "));
   console.log("[csv->geojson] icons detected:", [...iconsDetected].sort().join(", "));
+  console.log("[csv->geojson] categories generated:", categoriesOutput.items.map((item) => item.id).join(" -> "));
 
   if (discarded.length) {
     console.log("[csv->geojson] discarded detail:", JSON.stringify(discarded, null, 2));

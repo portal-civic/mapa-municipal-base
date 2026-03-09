@@ -4,7 +4,7 @@
     "subtitle": "Mapa de recursos saludables"
   },
   "common": {
-    "all": "Tots",
+    "all": "TOTES",
     "mobile_menu": "Obrir panells"
   },
   "panel": {
@@ -16,7 +16,14 @@
     "subcategory": "Subcategoria",
     "status": "Estat",
     "address": "Adreça",
-    "directions": "Com arribar"
+    "link": "Enllaç",
+    "directions": "Com arribar",
+    "general_heading": "Informació",
+    "general_overline": "Projecte",
+    "general_title": "Informació general",
+    "general_description": "Selecciona un punt al mapa per vore el detall. Pots usar els filtres per categoria i estat per trobar recursos més ràpidament.",
+    "more_info": "Més informació",
+    "close": "Tancar"
   },
   "layers": {
     "title": "Capes",
@@ -26,9 +33,13 @@
   },
   "filters": {
     "title": "Filtres",
+    "categories_title": "Categories",
     "category": "Categoria",
     "subcategory": "Subcategoria",
     "status": "Estat"
+  },
+  "legend": {
+    "title": "Llegenda"
   },
   "status": {
     "prevista": "Prevista",
@@ -42,7 +53,8 @@
     "serveis_sociosanitaris_socials": "Serveis sociosanitaris i socials"
   },
   "subcategories": {
-    "general": "General"
+    "general": "General",
+    "desfibriladors": "Desfibriladors"
   },
   "footer": {
     "left": "Plataforma base reutilitzable",

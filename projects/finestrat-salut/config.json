@@ -15,5 +15,28 @@
     "subtitle": "Mapa de recursos saludables",
     "titleKey": "branding.title",
     "subtitleKey": "branding.subtitle"
+  },
+  "leftPanel": {
+    "accentColor": "#db693e",
+    "showGeneralInfoOnLoad": true,
+    "showInfoButton": true,
+    "fields": {
+      "status": false,
+      "subcategory": false
+    },
+    "generalInfo": {
+      "enabled": true,
+      "overlineKey": "panel.general_overline",
+      "titleKey": "panel.general_title",
+      "descriptionKey": "panel.general_description"
+    }
+  },
+  "rightPanel": {
+    "titleKey": "filters.categories_title",
+    "appearance": "compact",
+    "showSubsections": true,
+    "genericSubcategoryIds": ["general"],
+    "showStatus": false,
+    "showStatusFilter": false
   }
 }

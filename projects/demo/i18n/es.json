@@ -14,7 +14,16 @@
     "no_description": "Sin descripción",
     "category": "Categoría",
     "subcategory": "Subcategoría",
-    "status": "Estado"
+    "status": "Estado",
+    "address": "Dirección",
+    "link": "Enlace",
+    "directions": "Cómo llegar",
+    "general_heading": "Información",
+    "general_overline": "Proyecto",
+    "general_title": "Información general",
+    "general_description": "Selecciona un elemento en el mapa para ver el detalle.",
+    "more_info": "Más información",
+    "close": "Cerrar"
   },
   "layers": {
     "title": "Capas",
