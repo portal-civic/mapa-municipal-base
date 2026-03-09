@@ -1,74 +1,303 @@
-.branding {
+.app-header .muni-header {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  width: 100%;
 }
 
-.branding-title {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.branding-subtitle {
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
-.header-actions {
-  margin-left: auto;
+.app-header .muni-header__top {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.2rem;
+  width: 100%;
+  min-height: 80px;
 }
 
-.locale-switcher {
+.app-header .muni-header__left {
+  display: flex;
+  align-items: center;
+  flex: 0 1 320px;
+  min-width: 220px;
+}
+
+.app-header .muni-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: 0;
+}
+
+.app-header .muni-header__brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #d7dde5;
+  background: #fff;
+  display: block;
+}
+
+.app-header .muni-header__link-wrap {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-header .muni-header__brand-text {
+  min-width: 0;
+}
+
+.app-header .muni-header__brand-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: 0.01em;
+}
+
+.app-header .muni-header__brand-subtitle {
+  margin-top: 0.05rem;
+  font-size: 1.02rem;
+  color: var(--muted);
+  line-height: 1.14;
+}
+
+.app-header .muni-header__center {
+  flex: 1 1 auto;
+  min-width: 340px;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.app-header .muni-header__badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.48rem;
+  flex: 0 0 auto;
+}
+
+.app-header .muni-header__badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #d6d6d6;
+  background: #f5df00;
+  padding: 0.36rem 0.68rem;
+}
+
+.app-header .muni-header__badge-img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  display: block;
+}
+
+.app-header .muni-header__menu {
+  display: inline-flex;
+}
+
+.app-header .muni-header__menu--secondary {
+  flex: 1 0 100%;
+  justify-content: center;
+}
+
+.app-header .muni-header__right {
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.app-header .muni-header__menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.app-header .muni-header__menu-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.1rem;
+  padding: 0.22rem 0.16rem;
+  border-radius: 0;
+  color: #2b2b2b;
+  text-decoration: none;
+  font-size: 1.22rem;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.18s ease;
+}
+
+.app-header .muni-header__menu-link:hover {
+  color: #000;
+}
+
+.app-header .muni-header__menu-link.is-active {
+  border-bottom-color: #ba3430;
+  color: #80201d;
+}
+
+.app-header .muni-header__menu--primary .muni-header__menu-link {
+  font-size: 1.22rem;
+  font-weight: 600;
+}
+
+.app-header .muni-header__menu--secondary .muni-header__menu-list {
+  justify-content: center;
+  width: 100%;
+}
+
+.app-header .muni-header__menu--secondary .muni-header__menu-link {
+  min-height: 1.7rem;
+  font-size: 0.97rem;
+  font-weight: 600;
+  border-bottom-width: 1px;
+  color: #444;
+}
+
+.app-header .muni-header__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.46rem;
+}
+
+.app-header .muni-header__social-link {
+  width: 2.05rem;
+  height: 2.05rem;
+  border-radius: 999px;
+  border: 1px solid #242424;
+  background: #242424;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-header .muni-header__social-link:hover {
+  background: #111;
+  border-color: #111;
+}
+
+.app-header .muni-header__social-icon {
+  font-size: 0.82rem;
+}
+
+.app-header .muni-header__lang {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.2rem;
+}
+
+.app-header .locale-switcher {
   display: inline-flex;
   align-items: center;
 }
 
-.locale-segmented {
+.app-header .locale-segmented {
   display: inline-grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  border: 1px solid #cfd4dd;
-  border-radius: 999px;
-  background: #f1f3f6;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   overflow: hidden;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: none;
 }
 
-.locale-segmented__option {
-  min-width: 2.5rem;
+.app-header .locale-segmented__option {
+  min-width: 2.35rem;
   height: 2rem;
   border: 0;
-  border-right: 1px solid #d9dde5;
+  border-right: 0;
   background: transparent;
-  color: #6b7280;
-  font-size: 0.79rem;
+  color: #333;
+  font-size: 1.06rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   line-height: 1;
-  padding: 0 0.68rem;
+  padding: 0 0.46rem;
   cursor: pointer;
 }
 
-.locale-segmented__option:last-child {
-  border-right: 0;
+.app-header .locale-segmented__option:hover {
+  color: #000;
+  background: transparent;
 }
 
-.locale-segmented__option:hover {
-  color: #374151;
-  background: rgba(255, 255, 255, 0.6);
+.app-header .locale-segmented__option:focus-visible {
+  outline: 2px solid #2f2f2f;
+  outline-offset: -1px;
 }
 
-.locale-segmented__option:focus-visible {
-  outline: 2px solid #6b7280;
-  outline-offset: -2px;
+.app-header .locale-segmented__option.is-active {
+  border-bottom: 2px solid #ba3430;
+  color: #80201d;
 }
 
-.locale-segmented__option.is-active {
-  background: #e9edf3;
-  color: #1f2937;
+.app-header .muni-header__back-link {
+  color: #334155;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.app-header .muni-header__back-link:hover {
+  text-decoration: underline;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__top {
+  min-height: 60px;
+  gap: 0.72rem;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__left {
+  flex: 1 1 auto;
+  min-width: 220px;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__brand-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__brand-title {
+  font-size: 1.18rem;
+  line-height: 1.08;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__brand-subtitle {
+  margin-top: 0.12rem;
+  font-size: 0.82rem;
+  line-height: 1.18;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__center {
+  display: none;
+}
+
+.app-header .muni-header--municipal-simple .muni-header__right {
+  gap: 0.62rem;
+  margin-left: auto;
+}
+
+.app-header .muni-header--municipal-simple .locale-segmented__option {
+  min-width: 2rem;
+  height: 1.82rem;
+  font-size: 0.86rem;
 }
 
 .floating-box {
@@ -293,8 +522,84 @@
   display: none;
 }
 
-.app-footer small {
+.app-footer {
+  min-height: var(--footer-h);
+}
+
+.app-footer__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.72rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.app-footer__text {
   color: var(--muted);
+}
+
+.app-footer__text--right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.app-footer__logos {
+  display: flex;
+  align-items: center;
+  gap: 0.44rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-footer__logo-item {
+  border: 1px solid #d3dae3;
+  background: #fff;
+  border-radius: 8px;
+  min-height: 2rem;
+  min-width: 2rem;
+  padding: 0.22rem 0.42rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-footer__logo-item.is-placeholder {
+  background: #f7fafc;
+}
+
+.app-footer__logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+
+.app-footer__logo-placeholder {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #425466;
+  white-space: nowrap;
+}
+
+.app-footer__link-wrap {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-footer__link-wrap:hover .app-footer__logo-item {
+  background: #f6f9fd;
+}
+
+.detail-general-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.52rem;
+}
+
+.detail-general-paragraph {
+  margin: 0;
+  line-height: 1.42;
+  color: #374151;
 }
 
 .poi-icon-marker {

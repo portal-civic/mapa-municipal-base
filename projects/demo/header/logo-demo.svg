@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t">
+  <title id="t">Logo Mapa Municipal Demo</title>
+  <rect x="4" y="4" width="112" height="112" rx="20" fill="#f3f4f6" stroke="#c5ced8" stroke-width="6"/>
+  <path d="M20 92V28h28z" fill="#ca3f3f"/>
+  <path d="M48 92V28h52z" fill="#1e88b3"/>
+</svg>

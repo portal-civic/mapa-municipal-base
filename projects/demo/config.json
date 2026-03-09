@@ -15,5 +15,90 @@
     "subtitle": "Infraestructura i espai públic",
     "titleKey": "branding.title",
     "subtitleKey": "branding.subtitle"
+  },
+  "header": {
+    "enabled": true,
+    "blocks": {
+      "brand": true,
+      "badges": true,
+      "primaryMenu": true,
+      "secondaryMenu": true,
+      "social": true,
+      "languageSwitcher": true
+    },
+    "brand": {
+      "title": "Mapa Municipal Demo",
+      "subtitle": "Infraestructura i espai públic",
+      "titleKey": "branding.title",
+      "subtitleKey": "branding.subtitle",
+      "logo": {
+        "enabled": true,
+        "src": "projects/demo/header/logo-demo.svg",
+        "alt": "Mapa Municipal Demo"
+      }
+    },
+    "badges": [
+      {
+        "src": "projects/demo/header/badge-agenda.svg",
+        "alt": "Agenda Urbana",
+        "href": "#"
+      }
+    ],
+    "primaryMenu": [
+      {
+        "label": "Agenda Urbana",
+        "href": "#"
+      },
+      {
+        "label": "Diagnòstics",
+        "href": "#"
+      },
+      {
+        "label": "Mapa interactiu",
+        "href": "#",
+        "active": true
+      },
+      {
+        "label": "Participació",
+        "href": "#"
+      },
+      {
+        "label": "Seguiment",
+        "href": "#"
+      }
+    ],
+    "secondaryMenu": [
+      {
+        "label": "Actualitat",
+        "href": "#"
+      },
+      {
+        "label": "Agenda",
+        "href": "#"
+      },
+      {
+        "label": "Bústia ciutadana",
+        "href": "#"
+      }
+    ],
+    "showSocialLinks": true,
+    "socialLinks": [
+      {
+        "platform": "facebook",
+        "url": "#",
+        "label": "Facebook"
+      },
+      {
+        "platform": "youtube",
+        "url": "#",
+        "label": "YouTube"
+      },
+      {
+        "platform": "instagram",
+        "url": "#",
+        "label": "Instagram"
+      }
+    ],
+    "showLanguageSwitcher": true
   }
 }

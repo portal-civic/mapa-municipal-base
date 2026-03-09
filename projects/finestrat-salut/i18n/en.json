@@ -3,6 +3,9 @@
     "title": "Finestrat Salut",
     "subtitle": "Healthy resources map"
   },
+  "header": {
+    "back_to_municipal": "← Back to municipal website"
+  },
   "common": {
     "all": "ALL",
     "mobile_menu": "Open panels"
@@ -21,7 +24,7 @@
     "general_heading": "Information",
     "general_overline": "Project",
     "general_title": "General information",
-    "general_description": "Select a point on the map to view details. You can use category and status filters to find resources faster.",
+    "general_description": "This map gathers and highlights resources in Finestrat that contribute to residents' wellbeing and health. These resources were identified through a participatory process and help people discover places, services, and initiatives that support physical, mental, and social health.\n\nYou can explore resources by category and select map points to view details.\n\nThis work is part of Finestrat's municipal effort to promote community health.",
     "more_info": "More information",
     "close": "Close"
   },
@@ -57,7 +60,7 @@
     "desfibriladors": "Defibrillators"
   },
   "footer": {
-    "left": "Reusable base platform",
-    "right": "Project"
+    "left": "Community health project",
+    "right": "Finestrat Town Council"
   }
 }

@@ -73,12 +73,34 @@ function buildDetailRow({ label, valueNode, valueClass = "detail-row-value" }) {
   return row;
 }
 
+function buildGeneralDescriptionNode(text) {
+  const value = String(text || "").trim();
+  if (!value) {
+    return "";
+  }
+
+  const paragraphs = value
+    .split(/\n\s*\n/g)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (paragraphs.length <= 1) {
+    return value;
+  }
+
+  const wrap = createEl("div", "detail-general-copy");
+  for (const paragraph of paragraphs) {
+    wrap.appendChild(createEl("p", "detail-general-paragraph", paragraph));
+  }
+  return wrap;
+}
+
 function renderGeneralRows(body, t, generalInfo) {
   const rows = createEl("div", "detail-rows detail-rows-clean");
   const generalText = generalInfo?.descriptionKey
     ? t(generalInfo.descriptionKey, generalInfo.description || t("panel.detail_empty"))
     : generalInfo?.description || t("panel.detail_empty");
-  rows.appendChild(buildDetailRow({ label: t("panel.description"), valueNode: generalText }));
+  rows.appendChild(buildDetailRow({ label: t("panel.description"), valueNode: buildGeneralDescriptionNode(generalText) }));
 
   if (generalInfo?.linkUrl) {
     const link = createEl(

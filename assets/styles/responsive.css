@@ -3,12 +3,150 @@
     --panel-w: 280px;
   }
 
+  .app-header .muni-header__top {
+    min-height: 74px;
+    gap: 0.9rem;
+  }
+
+  .app-header .muni-header__left {
+    flex-basis: 280px;
+    min-width: 210px;
+  }
+
+  .app-header .muni-header__center {
+    min-width: 260px;
+    gap: 0.7rem;
+  }
+
+  .app-header .muni-header__brand-title {
+    font-size: 1.6rem;
+  }
+
+  .app-header .muni-header__brand-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .app-header .muni-header__menu-link {
+    font-size: 1.02rem;
+  }
+
+  .app-header .muni-header__menu--secondary .muni-header__menu-link {
+    font-size: 0.88rem;
+  }
+
   .right-panels {
     width: min(88vw, 308px);
   }
 }
 
 @media (max-width: 840px) {
+  .app-header {
+    padding: 0.48rem 0.62rem;
+  }
+
+  .app-header .muni-header__top {
+    align-items: flex-start;
+    gap: 0.45rem 0.7rem;
+    min-height: 0;
+    flex-wrap: wrap;
+  }
+
+  .app-header .muni-header__left {
+    flex: 1 1 auto;
+    min-width: 220px;
+  }
+
+  .app-header .muni-header__right {
+    flex: 0 0 auto;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+
+  .app-header .muni-header__center {
+    order: 3;
+    flex: 1 1 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    gap: 0.56rem;
+    border-top: 1px solid #e0e4ea;
+    padding-top: 0.42rem;
+  }
+
+  .app-header .muni-header__brand-title {
+    font-size: 1.26rem;
+  }
+
+  .app-header .muni-header__brand-subtitle {
+    font-size: 0.83rem;
+  }
+
+  .app-header .muni-header__brand-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .app-header .muni-header__badge-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .app-header .muni-header__social-link {
+    width: 1.85rem;
+    height: 1.85rem;
+  }
+
+  .app-header .muni-header__menu-link {
+    min-height: 1.7rem;
+    font-size: 0.92rem;
+  }
+
+  .app-header .muni-header__menu--secondary .muni-header__menu-link {
+    font-size: 0.82rem;
+  }
+
+  .app-header .muni-header__menu--secondary {
+    justify-content: flex-start;
+  }
+
+  .app-header .muni-header__menu--secondary .muni-header__menu-list {
+    justify-content: flex-start;
+  }
+
+  .app-header .locale-segmented__option {
+    min-width: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .app-header .muni-header--municipal-simple .muni-header__top {
+    flex-wrap: wrap;
+    min-height: 0;
+  }
+
+  .app-header .muni-header--municipal-simple .muni-header__left,
+  .app-header .muni-header--municipal-simple .muni-header__right {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .app-header .muni-header--municipal-simple .muni-header__brand-title {
+    font-size: 1.04rem;
+  }
+
+  .app-header .muni-header--municipal-simple .muni-header__brand-subtitle {
+    font-size: 0.76rem;
+  }
+
+  .app-footer__content {
+    justify-content: flex-start;
+  }
+
+  .app-footer__text--right {
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+  }
+
   .map-wrap {
     --map-control-size: 40px;
     --map-control-gap: 0.42rem;
@@ -88,11 +226,66 @@
 }
 
 @media (max-width: 520px) {
-  .locale-segmented__option {
-    min-width: 2.2rem;
-    height: 1.85rem;
-    padding: 0 0.5rem;
-    font-size: 0.75rem;
+  .app-header .muni-header__top {
+    gap: 0.4rem 0.46rem;
+  }
+
+  .app-header .muni-header__left {
+    min-width: 170px;
+  }
+
+  .app-header .muni-header__brand-title {
+    font-size: 1rem;
+  }
+
+  .app-header .muni-header__brand-subtitle {
+    font-size: 0.74rem;
+  }
+
+  .app-header .muni-header__right {
+    gap: 0.42rem;
+  }
+
+  .app-header .muni-header__menu-list {
+    gap: 0.2rem;
+  }
+
+  .app-header .muni-header__menu-link {
+    padding: 0.2rem 0.1rem;
+    min-height: 1.6rem;
+    font-size: 0.8rem;
+  }
+
+  .app-header .muni-header__menu--secondary .muni-header__menu-link {
+    font-size: 0.72rem;
+  }
+
+  .app-header .muni-header__badge {
+    padding: 0.24rem 0.52rem;
+  }
+
+  .app-header .muni-header__badge-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .app-header .locale-segmented__option {
+    min-width: 1.7rem;
+    height: 1.7rem;
+    padding: 0 0.2rem;
+    font-size: 0.76rem;
+  }
+
+  .app-header .muni-header--municipal-simple .muni-header__back-link {
+    font-size: 0.82rem;
+  }
+
+  .app-footer__logo-item {
+    padding: 0.2rem 0.34rem;
+  }
+
+  .app-footer__logo-placeholder {
+    font-size: 0.66rem;
   }
 
   .map-wrap {

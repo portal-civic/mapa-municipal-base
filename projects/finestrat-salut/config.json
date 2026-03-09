@@ -16,6 +16,86 @@
     "titleKey": "branding.title",
     "subtitleKey": "branding.subtitle"
   },
+  "header": {
+    "enabled": true,
+    "variant": "municipal-simple",
+    "blocks": {
+      "brand": true,
+      "badges": false,
+      "primaryMenu": false,
+      "secondaryMenu": false,
+      "social": false,
+      "languageSwitcher": true
+    },
+    "brand": {
+      "title": "Finestrat Salut",
+      "subtitle": "Mapa de recursos saludables",
+      "titleKey": "branding.title",
+      "subtitleKey": "branding.subtitle",
+      "logo": {
+        "enabled": true,
+        "src": "projects/finestrat-salut/header/logo-finestrat-placeholder.svg",
+        "alt": "Ajuntament de Finestrat",
+        "href": "https://www.finestrat.org/",
+        "target": "_blank"
+      }
+    },
+    "returnLink": {
+      "enabled": true,
+      "labelKey": "header.back_to_municipal",
+      "label": "← Tornar a la web municipal",
+      "href": "https://www.finestrat.org/",
+      "target": "_blank"
+    },
+    "badges": [
+      {
+        "src": "",
+        "alt": "Badge secundari institucional",
+        "href": ""
+      }
+    ],
+    "primaryMenu": [],
+    "secondaryMenu": [],
+    "showSocialLinks": false,
+    "socialLinks": [
+      {
+        "platform": "instagram",
+        "url": "",
+        "label": "Instagram"
+      }
+    ],
+    "showLanguageSwitcher": true
+  },
+  "footer": {
+    "enabled": true,
+    "style": "institutional-compact",
+    "leftTextKey": "footer.left",
+    "rightTextKey": "footer.right",
+    "logos": [
+      {
+        "name": "Ajuntament de Finestrat",
+        "label": "Ajuntament de Finestrat",
+        "src": "",
+        "href": "https://www.finestrat.org/",
+        "target": "_blank"
+      },
+      {
+        "name": "V Pla de Salut",
+        "label": "V Pla de Salut",
+        "src": ""
+      },
+      {
+        "name": "Generalitat Valenciana",
+        "label": "Generalitat Valenciana",
+        "src": ""
+      },
+      {
+        "name": "XarxaSalut",
+        "label": "XarxaSalut",
+        "src": ""
+      }
+    ]
+  },
   "leftPanel": {
     "accentColor": "#db693e",
     "showGeneralInfoOnLoad": true,

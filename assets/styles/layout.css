@@ -1,7 +1,7 @@
 .app-shell {
   min-height: 100dvh;
   display: grid;
-  grid-template-rows: var(--header-h) 1fr var(--footer-h);
+  grid-template-rows: auto 1fr auto;
 }
 
 .app-header,
@@ -9,14 +9,27 @@
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex;
-  align-items: center;
-  padding: 0 1rem;
+  padding: 0.55rem 1rem;
+}
+
+.app-header {
+  align-items: stretch;
+  min-height: var(--header-h);
 }
 
 .app-footer {
+  align-items: center;
   border-top: 1px solid var(--border);
   border-bottom: 0;
   justify-content: space-between;
+}
+
+.app-shell--header-hidden {
+  grid-template-rows: 0 1fr auto;
+}
+
+.app-shell--header-hidden .app-header {
+  display: none;
 }
 
 .app-main {

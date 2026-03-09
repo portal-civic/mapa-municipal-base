@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t">
+  <title id="t">Agenda Urbana</title>
+  <circle cx="60" cy="60" r="56" fill="#f5df00" stroke="#242424" stroke-width="3"/>
+  <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f1f1f">AGENDA</text>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f1f1f">URBANA</text>
+</svg>

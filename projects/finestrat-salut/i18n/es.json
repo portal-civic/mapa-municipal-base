@@ -3,6 +3,9 @@
     "title": "Finestrat Salut",
     "subtitle": "Mapa de recursos saludables"
   },
+  "header": {
+    "back_to_municipal": "← Volver a la web municipal"
+  },
   "common": {
     "all": "TODAS",
     "mobile_menu": "Abrir paneles"
@@ -21,7 +24,7 @@
     "general_heading": "Información",
     "general_overline": "Proyecto",
     "general_title": "Información general",
-    "general_description": "Selecciona un punto en el mapa para ver el detalle. Puedes usar los filtros por categoría y estado para encontrar recursos más rápido.",
+    "general_description": "Este mapa recoge y pone en valor recursos de Finestrat que contribuyen al bienestar y a la salud de la población. Estos recursos se han identificado mediante un proceso participativo y permiten conocer espacios, servicios e iniciativas que favorecen la salud física, mental y social.\n\nPuedes explorar los recursos por categorías y seleccionar los puntos del mapa para ver su detalle.\n\nEste trabajo forma parte del impulso municipal de la salud comunitaria en Finestrat.",
     "more_info": "Más información",
     "close": "Cerrar"
   },
@@ -57,7 +60,7 @@
     "desfibriladors": "Desfibriladores"
   },
   "footer": {
-    "left": "Plataforma base reutilizable",
-    "right": "Proyecto"
+    "left": "Proyecto de salud comunitaria",
+    "right": "Ayuntamiento de Finestrat"
   }
 }

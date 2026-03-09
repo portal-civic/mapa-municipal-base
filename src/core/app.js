@@ -32,6 +32,14 @@ function setupRightPanelConfig(projectConfig) {
   return projectConfig.rightPanel || {};
 }
 
+function resolveBranding(projectConfig, t) {
+  const branding = projectConfig.branding || {};
+  return {
+    title: branding.titleKey ? t(branding.titleKey, branding.title || "") : branding.title || "",
+    subtitle: branding.subtitleKey ? t(branding.subtitleKey, branding.subtitle || "") : branding.subtitle || "",
+  };
+}
+
 function ensureInfoToggleButton(container, { t, onClick }) {
   let button = qs(".left-panel-toggle", container);
   if (!button) {
@@ -103,6 +111,7 @@ async function bootstrap() {
   const legendPanel = qs("#legend-panel");
   const header = qs("#app-header");
   const footer = qs("#app-footer");
+  const appShell = qs(".app-shell");
 
   const layerManager = createLayerManager({
     map,
@@ -140,6 +149,8 @@ async function bootstrap() {
   }
 
   function redrawPanels(state) {
+    const branding = resolveBranding(projectData.config, i18n.t);
+
     if (state.selectedFeature) {
       renderFeatureDetails(leftPanel, state.selectedFeature, {
         t: i18n.t,
@@ -151,20 +162,14 @@ async function bootstrap() {
       renderLeftPanelEmpty(leftPanel, {
         t: i18n.t,
         onClose: () => store.setState({ isLeftPanelVisible: false }),
-        branding: {
-          title: i18n.t(projectData.config.branding.titleKey, projectData.config.branding.title),
-          subtitle: i18n.t(projectData.config.branding.subtitleKey, projectData.config.branding.subtitle),
-        },
+        branding,
         leftPanelConfig,
       });
     } else {
       renderLeftPanelEmpty(leftPanel, {
         t: i18n.t,
         onClose: () => store.setState({ isLeftPanelVisible: false }),
-        branding: {
-          title: i18n.t(projectData.config.branding.titleKey, projectData.config.branding.title),
-          subtitle: i18n.t(projectData.config.branding.subtitleKey, projectData.config.branding.subtitle),
-        },
+        branding,
         leftPanelConfig: {
           generalInfo: {
             descriptionKey: "panel.detail_empty",
@@ -224,13 +229,19 @@ async function bootstrap() {
       }
     });
 
-    renderHeader(header, {
-      title: i18n.t(projectData.config.branding.titleKey, projectData.config.branding.title),
-      subtitle: i18n.t(projectData.config.branding.subtitleKey, projectData.config.branding.subtitle),
+    const isHeaderVisible = renderHeader(header, {
+      config: projectData.config,
+      t: i18n.t,
       localeNode,
     });
+    if (appShell) {
+      appShell.classList.toggle("app-shell--header-hidden", !isHeaderVisible);
+    }
 
     renderFooter(footer, {
+      config: projectData.config,
+      t: i18n.t,
+      project: state.project,
       leftText: i18n.t("footer.left", "Plataforma base de mapes municipals"),
       rightText: `${i18n.t("footer.right", "Projecte")}: ${state.project}`,
     });
