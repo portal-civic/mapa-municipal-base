@@ -95,14 +95,62 @@ function buildGeneralDescriptionNode(text) {
   return wrap;
 }
 
+function resolveGeneralSections(t, generalInfo) {
+  if (!Array.isArray(generalInfo?.sections)) {
+    return [];
+  }
+
+  return generalInfo.sections
+    .map((section) => {
+      const title = section?.titleKey ? t(section.titleKey, section.title || "") : section?.title || "";
+      const text = section?.textKey ? t(section.textKey, section.text || "") : section?.text || "";
+      return { title: String(title).trim(), text: String(text).trim() };
+    })
+    .filter((section) => section.title || section.text);
+}
+
+function renderGeneralSections(body, sections) {
+  const sectionsWrap = createEl("div", "detail-general-sections");
+
+  for (const section of sections) {
+    const block = createEl("section", "detail-general-section");
+    if (section.title) {
+      block.appendChild(createEl("h3", "detail-general-section-title", section.title));
+    }
+
+    const textNode = buildGeneralDescriptionNode(section.text);
+    if (typeof textNode === "string") {
+      block.appendChild(createEl("p", "detail-general-paragraph", textNode));
+    } else {
+      block.appendChild(textNode);
+    }
+
+    sectionsWrap.appendChild(block);
+  }
+
+  body.appendChild(sectionsWrap);
+}
+
 function renderGeneralRows(body, t, generalInfo) {
-  const rows = createEl("div", "detail-rows detail-rows-clean");
-  const generalText = generalInfo?.descriptionKey
-    ? t(generalInfo.descriptionKey, generalInfo.description || t("panel.detail_empty"))
-    : generalInfo?.description || t("panel.detail_empty");
-  rows.appendChild(buildDetailRow({ label: t("panel.description"), valueNode: buildGeneralDescriptionNode(generalText) }));
+  const copyBlock = createEl("div", "detail-general-block");
+  const sections = resolveGeneralSections(t, generalInfo);
+  if (sections.length) {
+    renderGeneralSections(copyBlock, sections);
+  } else {
+    const generalText = generalInfo?.descriptionKey
+      ? t(generalInfo.descriptionKey, generalInfo.description || t("panel.detail_empty"))
+      : generalInfo?.description || t("panel.detail_empty");
+    const generalDescriptionNode = buildGeneralDescriptionNode(generalText);
+    if (typeof generalDescriptionNode === "string") {
+      copyBlock.appendChild(createEl("p", "detail-general-paragraph", generalDescriptionNode));
+    } else {
+      copyBlock.appendChild(generalDescriptionNode);
+    }
+  }
+  body.appendChild(copyBlock);
 
   if (generalInfo?.linkUrl) {
+    const rows = createEl("div", "detail-rows detail-rows-clean");
     const link = createEl(
       "a",
       "detail-link",
@@ -114,13 +162,13 @@ function renderGeneralRows(body, t, generalInfo) {
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     rows.appendChild(buildDetailRow({ label: t("panel.link", "Enllaç"), valueNode: link }));
+    body.appendChild(rows);
   }
-
-  body.appendChild(rows);
 }
 
 export function renderLeftPanelEmpty(container, { t, onClose, branding, leftPanelConfig }) {
   empty(container);
+  container.classList.add("is-general");
 
   const section = createEl("section", "panel-section detail-panel-section");
   section.appendChild(
@@ -157,6 +205,7 @@ export function renderLeftPanelEmpty(container, { t, onClose, branding, leftPane
 
 export function renderFeatureDetails(container, feature, { t, i18n, onClose, leftPanelConfig }) {
   empty(container);
+  container.classList.remove("is-general");
 
   const props = feature.properties;
   const fieldsVisibility = getFieldsVisibility(leftPanelConfig);

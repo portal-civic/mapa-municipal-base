@@ -147,6 +147,36 @@
     text-align: left;
   }
 
+  .app-footer--institutional-compact {
+    min-height: 70px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .app-footer--institutional-compact .app-footer__institutional-inline {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.48rem;
+  }
+
+  .app-footer--institutional-compact .app-footer__logos {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .app-footer--institutional-compact .app-footer__logo-img {
+    height: 21px;
+  }
+
+  .app-footer--institutional-compact .app-footer__text--right {
+    font-size: 0.62rem;
+    line-height: 1.28;
+  }
+
+  .detail-panel.is-general {
+    width: min(90vw, 410px);
+  }
+
   .map-wrap {
     --map-control-size: 40px;
     --map-control-gap: 0.42rem;
@@ -286,6 +316,24 @@
 
   .app-footer__logo-placeholder {
     font-size: 0.66rem;
+  }
+
+  .app-footer--institutional-compact .app-footer__logo-img {
+    height: 19px;
+  }
+
+  .app-footer--institutional-compact .app-footer__logo-item {
+    min-height: 2rem;
+    padding: 0.18rem 0.38rem;
+  }
+
+  .app-footer--institutional-compact .app-footer__text--right {
+    font-size: 0.62rem;
+    line-height: 1.24;
+  }
+
+  .detail-panel.is-general {
+    width: min(95vw, 414px);
   }
 
   .map-wrap {

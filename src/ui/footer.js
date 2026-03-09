@@ -53,17 +53,26 @@ export function renderFooter(container, { config, t, project, leftText, rightTex
     return false;
   }
 
+  for (const className of Array.from(container.classList)) {
+    if (className.startsWith("app-footer--")) {
+      container.classList.remove(className);
+    }
+  }
+  container.classList.add(`app-footer--${String(footer.style).replace(/[^a-z0-9-_]/gi, "")}`);
+
   const root = createEl("div", "app-footer__content");
   root.classList.add(`app-footer__content--${String(footer.style).replace(/[^a-z0-9-_]/gi, "")}`);
 
-  const left = createEl(
-    "small",
-    "app-footer__text",
-    footer.leftTextKey ? t(footer.leftTextKey, footer.leftText || leftText || "") : footer.leftText || leftText || "",
-  );
-  root.appendChild(left);
+  const finalRightText =
+    footer.rightTextKey ? t(footer.rightTextKey, footer.rightText || rightText || "") : footer.rightText || rightText || "";
+  const rightValue = finalRightText || (project ? `${t("footer.right", "Projecte")}: ${project}` : "");
 
-  if (footer.logos.length) {
+  const leftValue = footer.leftTextKey
+    ? t(footer.leftTextKey, footer.leftText || leftText || "")
+    : footer.leftText || leftText || "";
+
+  if (footer.style === "institutional-compact") {
+    const inlineRow = createEl("div", "app-footer__institutional-inline");
     const logosWrap = createEl("div", "app-footer__logos");
     for (const logo of footer.logos) {
       if (!logo?.enabled && logo?.enabled !== undefined) {
@@ -73,15 +82,40 @@ export function renderFooter(container, { config, t, project, leftText, rightTex
       logosWrap.appendChild(renderLogoItem({ ...logo, label }));
     }
     if (logosWrap.childElementCount) {
-      root.appendChild(logosWrap);
+      inlineRow.appendChild(logosWrap);
     }
-  }
+    if (rightValue || leftValue) {
+      if (rightValue) {
+        inlineRow.appendChild(createEl("small", "app-footer__text app-footer__text--right", rightValue));
+      } else if (leftValue) {
+        inlineRow.appendChild(createEl("small", "app-footer__text", leftValue));
+      }
+    }
 
-  const finalRightText =
-    footer.rightTextKey ? t(footer.rightTextKey, footer.rightText || rightText || "") : footer.rightText || rightText || "";
-  const rightValue = finalRightText || (project ? `${t("footer.right", "Projecte")}: ${project}` : "");
-  if (rightValue) {
-    root.appendChild(createEl("small", "app-footer__text app-footer__text--right", rightValue));
+    if (inlineRow.childElementCount) {
+      root.appendChild(inlineRow);
+    }
+  } else {
+    const left = createEl("small", "app-footer__text", leftValue);
+    root.appendChild(left);
+
+    if (footer.logos.length) {
+      const logosWrap = createEl("div", "app-footer__logos");
+      for (const logo of footer.logos) {
+        if (!logo?.enabled && logo?.enabled !== undefined) {
+          continue;
+        }
+        const label = logo?.labelKey ? t(logo.labelKey, logo.label || logo.name || "") : logo?.label || logo?.name || "";
+        logosWrap.appendChild(renderLogoItem({ ...logo, label }));
+      }
+      if (logosWrap.childElementCount) {
+        root.appendChild(logosWrap);
+      }
+    }
+
+    if (rightValue) {
+      root.appendChild(createEl("small", "app-footer__text app-footer__text--right", rightValue));
+    }
   }
 
   container.appendChild(root);

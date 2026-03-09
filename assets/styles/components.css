@@ -283,6 +283,7 @@
   margin-top: 0.12rem;
   font-size: 0.82rem;
   line-height: 1.18;
+  color: var(--panel-accent);
 }
 
 .app-header .muni-header--municipal-simple .muni-header__center {
@@ -364,6 +365,10 @@
   background: #f9fafb;
   border: 1px solid var(--detail-border);
   box-shadow: 0 11px 24px rgba(15, 23, 42, 0.14);
+}
+
+.detail-panel.is-general {
+  width: min(92vw, 392px);
 }
 
 .category-panel,
@@ -590,15 +595,119 @@
   background: #f6f9fd;
 }
 
+.app-footer--institutional-compact {
+  min-height: 76px;
+  padding: 0.48rem 0.92rem;
+  background: linear-gradient(180deg, #1b2431 0%, #15202c 100%);
+  border-top: 1px solid #0f172a;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 -1px 8px rgba(15, 23, 42, 0.14);
+}
+
+.app-footer--institutional-compact .app-footer__content--institutional-compact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  flex-wrap: nowrap;
+}
+
+.app-footer--institutional-compact .app-footer__institutional-inline {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  min-width: 0;
+}
+
+.app-footer--institutional-compact .app-footer__logos {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.48rem;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.app-footer--institutional-compact .app-footer__logo-item {
+  background: #fff;
+  border-color: #d8e0ea;
+  min-height: 2.2rem;
+  min-width: 2.5rem;
+  padding: 0.2rem 0.46rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 0 rgba(15, 23, 42, 0.08);
+}
+
+.app-footer--institutional-compact .app-footer__logo-img {
+  height: 24px;
+}
+
+.app-footer--institutional-compact .app-footer__text {
+  color: #ecf0f5;
+}
+
+.app-footer--institutional-compact .app-footer__text--right {
+  display: block;
+  margin: 0;
+  text-align: left;
+  color: #c9d4e1;
+  font-size: 0.66rem;
+  line-height: 1.3;
+  letter-spacing: 0.002em;
+  flex: 1 1 380px;
+  min-width: 0;
+}
+
+.detail-panel.is-general .detail-body {
+  padding: 1.08rem 1.24rem 1.2rem;
+}
+
+.detail-panel.is-general .detail-title {
+  margin-bottom: 0.96rem;
+}
+
+.detail-general-block {
+  border-top: 1px solid var(--detail-divider);
+  padding-top: 0.82rem;
+}
+
+.detail-general-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 0.96rem;
+}
+
+.detail-general-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+}
+
+.detail-general-section-title {
+  margin: 0;
+  font-size: 0.69rem;
+  font-weight: 760;
+  line-height: 1.15;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #8a4a31;
+}
+
 .detail-general-copy {
   display: flex;
   flex-direction: column;
-  gap: 0.52rem;
+  gap: 0.7rem;
 }
 
 .detail-general-paragraph {
   margin: 0;
-  line-height: 1.42;
+  line-height: 1.56;
+  font-size: 0.93rem;
   color: #374151;
 }
 

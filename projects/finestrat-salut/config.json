@@ -11,10 +11,8 @@
     "endZoom": 18
   },
   "branding": {
-    "title": "Finestrat Salut",
-    "subtitle": "Mapa de recursos saludables",
-    "titleKey": "branding.title",
-    "subtitleKey": "branding.subtitle"
+    "title": "Finestrat, un actiu per a la salut",
+    "subtitle": "Mapa d’actius per a la salut"
   },
   "header": {
     "enabled": true,
@@ -28,13 +26,11 @@
       "languageSwitcher": true
     },
     "brand": {
-      "title": "Finestrat Salut",
-      "subtitle": "Mapa de recursos saludables",
-      "titleKey": "branding.title",
-      "subtitleKey": "branding.subtitle",
+      "title": "Finestrat, un actiu per a la salut",
+      "subtitle": "Mapa d’actius per a la salut",
       "logo": {
         "enabled": true,
-        "src": "projects/finestrat-salut/header/logo-finestrat-placeholder.svg",
+        "src": "projects/finestrat-salut/branding/logo-ajuntament.png",
         "alt": "Ajuntament de Finestrat",
         "href": "https://www.finestrat.org/",
         "target": "_blank"
@@ -69,30 +65,35 @@
   "footer": {
     "enabled": true,
     "style": "institutional-compact",
-    "leftTextKey": "footer.left",
-    "rightTextKey": "footer.right",
+    "leftText": "",
+    "rightText": "Aquest projecte ha estat finançat per la Conselleria de Sanitat de la Generalitat Valenciana, dins de la convocatòria d’ajudes en matèria de projectes de desplegament del Pla de Salut de la Comunitat Valenciana. El contingut d’aquesta publicació és responsabilitat exclusiva de l’Ajuntament de Finestrat.",
     "logos": [
       {
         "name": "Ajuntament de Finestrat",
         "label": "Ajuntament de Finestrat",
-        "src": "",
+        "src": "projects/finestrat-salut/branding/logo-ajuntament.png",
         "href": "https://www.finestrat.org/",
         "target": "_blank"
       },
       {
+        "name": "Finestrat",
+        "label": "Finestrat",
+        "src": "projects/finestrat-salut/branding/logo-finestrat.png"
+      },
+      {
         "name": "V Pla de Salut",
         "label": "V Pla de Salut",
-        "src": ""
+        "src": "projects/finestrat-salut/branding/logo-pla-salut.png"
       },
       {
         "name": "Generalitat Valenciana",
         "label": "Generalitat Valenciana",
-        "src": ""
+        "src": "projects/finestrat-salut/branding/logo-generalitat.png"
       },
       {
         "name": "XarxaSalut",
         "label": "XarxaSalut",
-        "src": ""
+        "src": "projects/finestrat-salut/branding/logo-xarxasalut.png"
       }
     ]
   },
@@ -108,7 +109,20 @@
       "enabled": true,
       "overlineKey": "panel.general_overline",
       "titleKey": "panel.general_title",
-      "descriptionKey": "panel.general_description"
+      "sections": [
+        {
+          "title": "QUÈ ÉS",
+          "text": "El Mapa d’Actius per a la Salut recull i posa en valor els recursos de Finestrat que contribueixen al benestar de la població. A partir d’un procés participatiu, s’han identificat tant els actius existents com les oportunitats de millora per facilitar-ne l’accés i l’ús."
+        },
+        {
+          "title": "PER A QUÈ SERVEIX",
+          "text": "Aquest mapa permet conéixer millor els espais, serveis i iniciatives que afavoreixen la salut física, mental i social. És una invitació a descobrir-los i integrar-los en el teu dia a dia."
+        },
+        {
+          "title": "COM USAR EL MAPA",
+          "text": "Explora els recursos per categories i selecciona cada punt per veure’n la informació detallada."
+        }
+      ]
     }
   },
   "rightPanel": {
